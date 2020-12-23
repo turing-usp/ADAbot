@@ -35,9 +35,9 @@ class QuestionEmbeddings():
         return encoded
 
     def get_sentence_embs(self, frase):
-        frase_embs = self.get_embs_bertinbau(frase).numpy()
+        frase_embs = self.get_embs_bertinbau(frase.lower()).numpy()
         frase_embs_considerados = []
-        palavras = word_tokenize(frase)
+        palavras = word_tokenize(frase.lower())
         for palavra, embedding in zip(palavras, frase_embs):
             if not(self.count_stops):
                 if not(palavra in self.stopwords):
@@ -63,12 +63,12 @@ class QuestionEmbeddings():
             similaridade = self.semelhanca_cossenos(sentence_emb,row['Sentence Embedding'])
             if similaridade > maior_score_similaridade:
                 maior_score_similaridade = similaridade
-            mais_similar = row['PERGUNTAS']
+                mais_similar = row['PERGUNTAS']
         return mais_similar, maior_score_similaridade
     
     def get_response(self, frase):
         question, similaridade = self.get_most_similar_phrase(frase)
-        anwser = self.perguntas_frequentes[self.perguntas_frequentes['PERGUNTAS']  ==  question]['RESPOSTAS'][0].values
+        anwser = self.perguntas_frequentes[self.perguntas_frequentes['PERGUNTAS']  ==  question]['RESPOSTAS'].values[0]
         print(f"Pergunta mais similar na base de dados: \n{question}\nsimilaridade = {similaridade*100}%")
         if similaridade < self.similarity_threshold:
             anwser = self.no_answer
