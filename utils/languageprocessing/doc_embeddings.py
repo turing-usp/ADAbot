@@ -7,7 +7,7 @@ import nltk
 from nltk import word_tokenize
 
 class QuestionEmbeddings():
-    def __init__(self, question_path, greeting, no_answer, similarity_threshold=0.85, count_stops=False, media=True):
+    def __init__(self, question_path, greeting, no_answer, similarity_threshold=0.69, count_stops=False, media=True):
         self.no_answer = no_answer
         self.similarity_threshold = similarity_threshold
         self.greeting = greeting
@@ -16,14 +16,16 @@ class QuestionEmbeddings():
         self.tokenizer = AutoTokenizer.from_pretrained('neuralmind/bert-base-portuguese-cased', do_lower_case=False)
         self.model = AutoModel.from_pretrained('neuralmind/bert-base-portuguese-cased')
         self.stopwords = nltk.corpus.stopwords.words('portuguese')
-        self.perguntas_frequentes = pd.read_excel(question_csv_path)
+        perguntas_frequentes_int = pd.read_excel(question_path)
+        self.perguntas_frequentes = self.get_database_embs(perguntas_frequentes_int)
 
-    def get_database_embs(self):
+    def get_database_embs(self, perguntas_frequentes):
         embs = []
-        for i, row in self.perguntas_frequentes.iterrows():
+        for i, row in perguntas_frequentes.iterrows():
             emb = self.get_sentence_embs(row['PERGUNTAS'])
             embs.append(emb)
-        self.perguntas_frequentes['Sentence Embedding'] = embs
+        perguntas_frequentes['Sentence Embedding'] = embs
+        return perguntas_frequentes
 
     def get_embs_bertinbau(self, frase):
         input_ids = self.tokenizer.encode(frase, return_tensors='pt')
@@ -66,7 +68,8 @@ class QuestionEmbeddings():
     
     def get_response(self, frase):
         question, similaridade = self.get_most_similar_phrase(frase)
-        anwser = self.perguntas_frequentes[self.perguntas_frequentes['PERGUNTAS']  ==  question]['RESPOSTAS']
+        anwser = self.perguntas_frequentes[self.perguntas_frequentes['PERGUNTAS']  ==  question]['RESPOSTAS'][0].values
+        print(f"Pergunta mais similar na base de dados: \n{question}\nsimilaridade = {similaridade*100}%")
         if similaridade < self.similarity_threshold:
             anwser = self.no_answer
         full_answer = self.greeting + "\n" + anwser

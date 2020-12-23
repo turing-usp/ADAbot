@@ -18,7 +18,7 @@ def main(nquest):
     for i in range(nquest):
         question = input("Faça uma pergunta: \n")
         ans = qe.get_response(question)
-        print(ans)
+        print(f"Resposta dada: {ans}\n\n")
 
 if __name__ == '__main__':
     main()
