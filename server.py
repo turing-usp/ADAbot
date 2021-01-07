@@ -1,12 +1,13 @@
 from flask import Flask, request
 import requests
+import os
 from utils.languageprocessing import chatbot
 
 app = Flask(__name__)
 
 FB_API_URL = 'https://graph.facebook.com/v2.6/me/messages'
-VERIFY_TOKEN = ''# <paste your verify token here>
-PAGE_ACCESS_TOKEN = ''# paste your page access token here>"
+VERIFY_TOKEN = os.getenv('VERIFY_TOKEN')
+PAGE_ACCESS_TOKEN = os.getenv('PAGE_ACCESS_TOKEN')
 
 
 #Chatbot settings

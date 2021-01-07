@@ -7,7 +7,7 @@ import nltk
 from nltk import word_tokenize
 
 class QuestionEmbeddings():
-    def __init__(self, question_path, greeting, no_answer, similarity_threshold=0.69, count_stops=False, media=True):
+    def __init__(self, question_path, greeting, no_answer, similarity_threshold=0.8, count_stops=False, media=True):
         self.no_answer = no_answer
         self.similarity_threshold = similarity_threshold
         self.greeting = greeting
