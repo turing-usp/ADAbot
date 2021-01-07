@@ -14,6 +14,9 @@ Para que perguntas de mesmo conteúdo fossem respondidas da mesma maneira, foi a
 ### Embeddings contextuais
 A similaridade entre perguntas foi calculada utilizando embeddings do modelo BERT pré-treinado em Português, o [Bertimbau](https://github.com/neuralmind-ai/portuguese-bert), disponibilizado na biblioteca `transformers` - [HuggingFace](https://huggingface.co/neuralmind/bert-base-portuguese-cased).
 
+### Deploy
+O deploy do chatbot, feito com a função `server.py`utilizou como referência o artigo [do Datacamp](https://www.datacamp.com/community/tutorials/facebook-chatbot-python-deploy)
+
 ### References
 ```
 @inproceedings{souza2020bertimbau,
