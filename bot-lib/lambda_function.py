@@ -18,11 +18,12 @@ bot = QuestionEmbeddings(QUESTION_PATH, NO_ANSWER)
 def get_bot_response(message):
     return bot.get_response(message)
 
-def verify_webhook(req):
-    if req.args.get("hub.verify_token") == VERIFY_TOKEN:
-        return req.args.get("hub.challenge")
-    else:
-        return "incorrect"
+def verify_webhook(event):
+    if keys_exist(event, ["params","querystring","hub.verify_token","hub.challenge"]):
+        v_token   = str(find_item(event,'hub.verify_token'))
+        challenge = int(find_item(event,'hub.challenge'))
+        if (os.environ['verify_token'] == v_token):
+            return(challenge)
 
 def respond(sender, message):
     response = get_bot_response(message)
@@ -58,8 +59,8 @@ def send_message(recipient_id, text):
 
 def lambda_handler(event, context):
     #handle webhook challenge
-    challenge = verify_webhook(req)
-    if challenge != "incorrect":
+    challenge = verify_webhook(event)
+    if challenge != None:
         return challenge
             
     #handle messaging events
