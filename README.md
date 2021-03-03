@@ -42,4 +42,4 @@ Made with :heart: by: <br>
 - [Luísa Heise | @luisaheise](https://github.com/luisaheise)
 - [Vitoria Rodrigues | @vitoriars](https://github.com/vitoriars)
 - [Noel Eliezer | @anorak](https://github.com/anorak)
-- [Lucas Leme | @lucas_leme](https://github.com/lucas_leme)
+- [Lucas Leme | @lucas-leme](https://github.com/lucas-leme)
