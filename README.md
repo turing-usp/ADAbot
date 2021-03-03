@@ -18,6 +18,11 @@ A similaridade entre perguntas foi calculada utilizando embeddings do modelo BER
 O deploy do chatbot, é feito num AWS Lambda, com a utlilização de um container/Docker. A nossa aplicação recebe requests do webhook do facebook e depois faz um request para a API do Facebook para responder;
 ![](https://scontent.fcgh23-1.fna.fbcdn.net/v/t39.8562-6/64382845_2370704119653345_4919414098698960896_n.png?_nc_cat=102&ccb=3&_nc_sid=6825c5&_nc_eui2=AeGaGeFX-pksjtuKlgyURw191getXIdIojrWB61ch0iiOq-Dq04DAKbtcmGDofpqECOp6aVjENmV_wP6XyIa1u2V&_nc_ohc=ywyKBdmIIhsAX-LytVe&_nc_ht=scontent.fcgh23-1.fna&oh=bca95ff1a34a38f0e0d0a63ca250c98b&oe=6064E07B)
 
+```
+docker build -t turing-bot-v1 .
+```
+
+
 ### References
 ```
 @inproceedings{souza2020bertimbau,
