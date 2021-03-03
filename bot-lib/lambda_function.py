@@ -22,7 +22,7 @@ def verify_webhook(event):
     if keys_exist(event, ["params","querystring","hub.verify_token","hub.challenge"]):
         v_token   = str(find_item(event,'hub.verify_token'))
         challenge = int(find_item(event,'hub.challenge'))
-        if (os.environ['verify_token'] == v_token):
+        if (VERIFY_TOKEN == v_token):
             return(challenge)
 
 def respond(sender, message):
