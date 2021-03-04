@@ -8,10 +8,9 @@ class QuestionEmbeddings():
     def __init__(self, question_path, no_answer, similarity_threshold=0.8):
         self.no_answer = no_answer
         self.similarity_threshold = similarity_threshold
-        self.tokenizer = AutoTokenizer.from_pretrained('neuralmind/bert-base-portuguese-cased', do_lower_case=False)
-        self.model = AutoModel.from_pretrained('neuralmind/bert-base-portuguese-cased')
-        self.stopwords = nltk.corpus.stopwords.words('portuguese')
-        perguntas_frequentes_int = pd.read_excel(question_path)
+        self.tokenizer = AutoTokenizer.from_pretrained('./model', do_lower_case=False)
+        self.model = AutoModel.from_pretrained('./model')
+        perguntas_frequentes_int = pd.read_csv(question_path)
         self.perguntas_frequentes = self.get_database_embs(perguntas_frequentes_int)
 
     def get_database_embs(self, perguntas_frequentes):

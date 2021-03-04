@@ -10,7 +10,7 @@ PAGE_ACCESS_TOKEN = os.getenv('PAGE_ACCESS_TOKEN')
 
 #Chatbot settings
 QUESTION_PATH = "assets/q_and_a.csv"
-GREETING = "Olá! O Grupo Turing agradece o contato!\n"
+GREETING = "Olá, eu sou a Ada, um bot em desenvolvimento pelo Grupo Turing! O Grupo Turing agradece o contato!\n"
 NO_ANSWER = "Logo um membro entrará em contato para responder sua questão"
 
 bot = QuestionEmbeddings(QUESTION_PATH, NO_ANSWER)
@@ -27,11 +27,29 @@ def verify_webhook(event):
 
 def respond(sender, message):
     response = get_bot_response(message)
+    response = GREETING + response
     send_message(sender, response)
+
+##recursively look/return for an item in dict given key
+def find_item(obj, key):
+    item = None
+    if key in obj: return obj[key]
+    for k, v in obj.items():
+        if isinstance(v,dict):
+            item = find_item(v, key)
+            if item is not None:
+                return item
+
+##recursivley check for items in a dict given key
+def keys_exist(obj, keys):
+    for key in keys:
+        if find_item(obj, key) is None:
+            return(False)
+    return(True)
 
 def send_message(recipient_id, text):
     payload = {
-        'messaging_type': 'RESPONSE'
+        'messaging_type': 'RESPONSE',
         'message': {
             'text': text
         },
@@ -65,6 +83,3 @@ def lambda_handler(event, context):
             msg_txt   = messaging_event['message']['text']
             sender_id = messaging_event['sender']['id']
             respond(sender_id, msg_txt)
-
-
-
