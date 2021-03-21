@@ -12,15 +12,15 @@ VERIFY_TOKEN = os.getenv('VERIFY_TOKEN')
 PAGE_ACCESS_TOKEN = os.getenv('PAGE_ACCESS_TOKEN')
 
 
-#csv file
+# csv file
 S3_FILENAME = 'q_and_a.csv'
 S3_BUCKET_NAME = ''
 S3_QUESTIONS_KEY = ""
 s3client = boto3.client('s3')
-s3client.download_file(S3_BUCKET_NAME, S3_QUESTIONS_KEY, '/tmp/'+S3_FILENAME) 
+s3client.download_file(S3_BUCKET_NAME, S3_QUESTIONS_KEY, '/tmp/' + S3_FILENAME)
 
-#Chatbot settings
-QUESTION_PATH = "tmp/"+S3_FILENAME
+# Chatbot settings
+QUESTION_PATH = "tmp/" + S3_FILENAME
 GREETING = "Olá, eu sou a Ada, um bot em desenvolvimento pelo Grupo Turing! O Grupo Turing agradece o contato!\n"
 NO_ANSWER = "Logo um membro entrará em contato para responder sua questão"
 EVALUATE = "O quanto essa resposta te ajudou de 0 (nada) a 5 (respondeu minha questão)? "
@@ -28,19 +28,21 @@ EVALUATE = "O quanto essa resposta te ajudou de 0 (nada) a 5 (respondeu minha qu
 
 bot = QuestionEmbeddings(QUESTION_PATH, NO_ANSWER)
 
-#Database configuration
+# Database configuration
 DYNAMODB_NLP_BOT_TURING = ""
 MESSAGE_TABLE = ""
 RATING_TABLE = ""
 
-dinamodb_handler = DynamodbHandler(DYNAMODB_NLP_BOT_TURING,MESSAGE_TABLE, RATING_TABLE)
+dinamodb_handler = DynamodbHandler(DYNAMODB_NLP_BOT_TURING, MESSAGE_TABLE, RATING_TABLE)
+
 
 def verify_webhook(event):
-    if keys_exist(event, ["params","querystring","hub.verify_token","hub.challenge"]):
-        v_token   = str(find_item(event,'hub.verify_token'))
-        challenge = int(find_item(event,'hub.challenge'))
-        if (VERIFY_TOKEN == v_token):
-            return(challenge)
+    if keys_exist(event, ["params", "querystring", "hub.verify_token", "hub.challenge"]):
+        v_token = str(find_item(event, 'hub.verify_token'))
+        challenge = int(find_item(event, 'hub.challenge'))
+        if VERIFY_TOKEN == v_token:
+            return challenge
+
 
 def handle_response(sender, message, time):
     last_interaction, last_bot_response, last_time = dinamodb_handler.get_last_interaction(sender)
@@ -48,10 +50,10 @@ def handle_response(sender, message, time):
         second_interval_between_interactions = time - last_time
     else:
         second_interval_between_interactions = 9999
-    #send greeting if interval is huge
-    if second_interval_between_interactions>350:
+    # send greeting if interval is huge
+    if second_interval_between_interactions > 350:
         send_message(sender, GREETING)
-    #if message is a pure number - register as greeting
+    # if message is a pure number - register as greeting
     try:
         message = float(message.strip())
         dinamodb_handler.put_rating(sender, time, message, last_interaction, last_bot_response)
@@ -61,57 +63,49 @@ def handle_response(sender, message, time):
         send_message(sender, response)
         send_message(sender, EVALUATE)
 
-##recursively look/return for an item in dict given key
+
+# recursively look/return for an item in dict given key
 def find_item(obj, key):
     item = None
-    if key in obj: return obj[key]
+    if key in obj:
+        return obj[key]
     for k, v in obj.items():
-        if isinstance(v,dict):
+        if isinstance(v, dict):
             item = find_item(v, key)
             if item is not None:
                 return item
 
-##recursivley check for items in a dict given key
+
+# recursivley check for items in a dict given key
 def keys_exist(obj, keys):
     for key in keys:
         if find_item(obj, key) is None:
-            return(False)
-    return(True)
+            return False
+    return True
+
 
 def send_message(recipient_id, text):
-    payload = {
-        'messaging_type': 'RESPONSE',
-        'message': {
-            'text': text
-        },
-        'recipient': {
-            'id': recipient_id
-        }}
+    payload = {'messaging_type': 'RESPONSE', 'message': {'text': text}, 'recipient': {'id': recipient_id}}
 
-    auth = {
-        'access_token': PAGE_ACCESS_TOKEN
-    }
+    auth = {'access_token': PAGE_ACCESS_TOKEN}
 
-    response = requests.post(
-        FB_API_URL,
-        params=auth,
-        json=payload
-    )
+    response = requests.post(FB_API_URL, params=auth, json=payload)
 
     return response.json()
 
+
 def lambda_handler(event, context):
-    #handle webhook challenge
+    # handle webhook challenge
     challenge = verify_webhook(event)
-    if challenge != None:
+    if challenge is not None:
         return challenge
-            
-    #handle messaging events
-    if keys_exist(event, ['body-json','entry']):
+
+    # handle messaging events
+    if keys_exist(event, ['body-json', 'entry']):
         event_entry0 = event['body-json']['entry'][0]
         time = event_entry0['time']
         if keys_exist(event_entry0, ['messaging']):
             messaging_event = event_entry0['messaging'][0]
-            msg_txt   = messaging_event['message']['text']
+            msg_txt = messaging_event['message']['text']
             sender_id = messaging_event['sender']['id']
             handle_response(sender_id, msg_txt, time)
