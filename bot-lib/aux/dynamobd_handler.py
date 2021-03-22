@@ -5,8 +5,8 @@ import uuid
 
 
 class DynamodbHandler:
-    def __init__(self, DYNAMODB_NLP_BOT_TURING, MESSAGE_TABLE, RATING_TABLE):
-        self.dynamodb = boto3.resource('dynamodb', endpoint_url=DYNAMODB_NLP_BOT_TURING)
+    def __init__(self, MESSAGE_TABLE, RATING_TABLE):
+        self.dynamodb = boto3.resource('dynamodb')
         self.messages_table = self.dynamodb.Table(MESSAGE_TABLE)
         self.rating_table = self.dynamodb.Table(RATING_TABLE)
 
@@ -48,9 +48,9 @@ class DynamodbHandler:
             last_bot_response = ""
             for item in items:
                 if item['time'] > last_time:
-                    last_time = item['item']
+                    last_time = item['time']
                     last_interaction = item['message_txt']
-                    last_bot_response = item['bot_given_response']
+                    last_bot_response item['bot_given_response']
             return last_interaction, last_bot_response, last_time
 
         except ClientError as e:

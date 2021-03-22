@@ -1,9 +1,9 @@
 import requests
 import os
-from languageprocessing.chatbot import QuestionEmbeddings
 import boto3
-from botocore.exceptions import ClientError
-import uuid
+from multiprocessing import Process
+
+from languageprocessing.chatbot import QuestionEmbeddings
 from aux.dynamobd_handler import DynamodbHandler
 
 
@@ -14,26 +14,25 @@ PAGE_ACCESS_TOKEN = os.getenv('PAGE_ACCESS_TOKEN')
 
 # csv file
 S3_FILENAME = 'q_and_a.csv'
-S3_BUCKET_NAME = ''
-S3_QUESTIONS_KEY = ""
+S3_BUCKET_NAME = os.getenv('S3_BUCKET_NAME')
+S3_QUESTIONS_KEY = os.getenv('S3_QUESTIONS_KEY')
 s3client = boto3.client('s3')
 s3client.download_file(S3_BUCKET_NAME, S3_QUESTIONS_KEY, '/tmp/' + S3_FILENAME)
 
 # Chatbot settings
-QUESTION_PATH = "tmp/" + S3_FILENAME
+QUESTION_PATH = "/tmp/" + S3_FILENAME
 GREETING = "Olá, eu sou a Ada, um bot em desenvolvimento pelo Grupo Turing! O Grupo Turing agradece o contato!\n"
 NO_ANSWER = "Logo um membro entrará em contato para responder sua questão"
-EVALUATE = "O quanto essa resposta te ajudou de 0 (nada) a 5 (respondeu minha questão)? "
+EVALUATE = "O quanto essa resposta te ajudou de 0 (nada) a 5 (respondeu minha questão)?"
 
 
 bot = QuestionEmbeddings(QUESTION_PATH, NO_ANSWER)
 
 # Database configuration
-DYNAMODB_NLP_BOT_TURING = ""
-MESSAGE_TABLE = ""
-RATING_TABLE = ""
+MESSAGE_TABLE = os.getenv('MESSAGE_TABLE')
+RATING_TABLE = os.getenv('RATING_TABLE')
 
-dinamodb_handler = DynamodbHandler(DYNAMODB_NLP_BOT_TURING, MESSAGE_TABLE, RATING_TABLE)
+dinamodb_handler = DynamodbHandler(MESSAGE_TABLE, RATING_TABLE)
 
 
 def verify_webhook(event):
@@ -46,12 +45,18 @@ def verify_webhook(event):
 
 def handle_response(sender, message, time):
     last_interaction, last_bot_response, last_time = dinamodb_handler.get_last_interaction(sender)
-    if last_time is not None:
-        second_interval_between_interactions = time - last_time
+    print("Time:", time)
+    print("Last time:", last_time)
+    print("Last message:", last_interaction)
+
+    if last_time is None:
+        send_greeting = True
     else:
-        second_interval_between_interactions = 9999
-    # send greeting if interval is huge
-    if second_interval_between_interactions > 350:
+        if last_time - time > 300000:
+            send_greeting = True
+        else:
+            send_greeting = False
+    if send_greeting:
         send_message(sender, GREETING)
     # if message is a pure number - register as greeting
     try:
@@ -106,6 +111,10 @@ def lambda_handler(event, context):
         time = event_entry0['time']
         if keys_exist(event_entry0, ['messaging']):
             messaging_event = event_entry0['messaging'][0]
-            msg_txt = messaging_event['message']['text']
-            sender_id = messaging_event['sender']['id']
-            handle_response(sender_id, msg_txt, time)
+            if keys_exist(messaging_event, ['message', 'sender']):
+                message = messaging_event['message']
+                if message.get('is_echo') is True:
+                    return 0
+                msg_txt = message['text']
+                sender_id = messaging_event['sender']['id']
+                handle_response(sender_id, msg_txt, time)
