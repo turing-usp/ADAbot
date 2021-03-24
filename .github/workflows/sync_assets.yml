@@ -3,7 +3,7 @@ name: Sync assets to S3
 on:
   push:
     branches:
-    - master
+    - main
 
 jobs:
   deploy:
