@@ -1,4 +1,4 @@
-# NLP-fb-chatbot
+# ADAbot
 Repositório contendo os conteúdos relativos ao projeto de chatbot do Grupo Turing.
 
 ----
