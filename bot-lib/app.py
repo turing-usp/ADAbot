@@ -38,19 +38,11 @@ bot = QuestionEmbeddings(QUESTION_PATH, NO_ANSWER)
 dinamodb_handler = DynamodbHandler(MESSAGE_TABLE, RATING_TABLE)
 
 
-def verify_webhook(event):
-    if keys_exist(event, ["params", "querystring", "hub.verify_token", "hub.challenge"]):
-        v_token = str(find_item(event, 'hub.verify_token'))
-        challenge = int(find_item(event, 'hub.challenge'))
-        if VERIFY_TOKEN == v_token:
-            return challenge
-
-
 def handle_response(sender, message, time):
     last_interaction, last_bot_response, last_time = dinamodb_handler.get_last_interaction(sender)
-    print("Time:", time)
-    print("Last time:", last_time)
-    print("Last message:", last_interaction)
+    print("Time:", time, type(time))
+    print("Last time:", last_time, type(last_time))
+    print("Last message:", last_interaction, type(last_interaction))
 
     if last_time is None:
         send_greeting = True
@@ -75,31 +67,11 @@ def handle_response(sender, message, time):
             endpoint = "https://api.telegram.org/bot{0}/sendMessage?chat_id={1}&text={2}"
             ada_alert = "Ada em apuros! Ajude-a respondendo a essa mensagem no Facebook: {}".format(message)
             r = requests.get(endpoint.format(TELEGRAM_TOKEN, CHAT_ID, ada_alert))
-            print("telegram ",r)
+            print("telegram ",r.status_code)
 
         dinamodb_handler.put_message(sender, time, message, response)
         send_message(sender, response)
         send_message(sender, EVALUATE)
-
-
-# recursively look/return for an item in dict given key
-def find_item(obj, key):
-    item = None
-    if key in obj:
-        return obj[key]
-    for k, v in obj.items():
-        if isinstance(v, dict):
-            item = find_item(v, key)
-            if item is not None:
-                return item
-
-
-# recursivley check for items in a dict given key
-def keys_exist(obj, keys):
-    for key in keys:
-        if find_item(obj, key) is None:
-            return False
-    return True
 
 
 def send_message(recipient_id, text):
@@ -113,21 +85,6 @@ def send_message(recipient_id, text):
 
 
 def lambda_handler(event, context):
-    # handle webhook challenge
-    challenge = verify_webhook(event)
-    if challenge is not None:
-        return challenge
-
-    # handle messaging events
-    if keys_exist(event, ['body-json', 'entry']):
-        event_entry0 = event['body-json']['entry'][0]
-        time = event_entry0['time']
-        if keys_exist(event_entry0, ['messaging']):
-            messaging_event = event_entry0['messaging'][0]
-            if keys_exist(messaging_event, ['message', 'sender']):
-                message = messaging_event['message']
-                if message.get('is_echo') is True:
-                    return 0
-                msg_txt = message['text']
-                sender_id = messaging_event['sender']['id']
-                handle_response(sender_id, msg_txt, time)
+    print(event)
+    sender, message, time = event['sender'], event['message'], event['time']
+    handle_response(sender, message, time)
