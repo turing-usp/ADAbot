@@ -6,18 +6,16 @@ from multiprocessing import Process
 from languageprocessing.chatbot import QuestionEmbeddings
 from aux.dynamobd_handler import DynamodbHandler
 
-
+#==============================================================================
+#Facebook controler
 FB_API_URL = 'https://graph.facebook.com/v2.6/me/messages'
 VERIFY_TOKEN = os.getenv('VERIFY_TOKEN')
 PAGE_ACCESS_TOKEN = os.getenv('PAGE_ACCESS_TOKEN')
-
 
 # csv file
 S3_FILENAME = 'q_and_a.csv'
 S3_BUCKET_NAME = os.getenv('S3_BUCKET_NAME')
 S3_QUESTIONS_KEY = os.getenv('S3_QUESTIONS_KEY')
-s3client = boto3.client('s3')
-s3client.download_file(S3_BUCKET_NAME, S3_QUESTIONS_KEY, '/tmp/' + S3_FILENAME)
 
 # Chatbot settings
 QUESTION_PATH = "/tmp/" + S3_FILENAME
@@ -25,13 +23,17 @@ GREETING = "Olá, eu sou a Ada, um bot em desenvolvimento pelo Grupo Turing! O G
 NO_ANSWER = "Logo um membro entrará em contato para responder sua questão"
 EVALUATE = "O quanto essa resposta te ajudou de 0 (nada) a 5 (respondeu minha questão)?"
 
-
-bot = QuestionEmbeddings(QUESTION_PATH, NO_ANSWER)
+#alert lambda
+AUTH_ALERT_LAMBDA = os.getenv('AUTH_ALERT_LAMBDA')
 
 # Database configuration
 MESSAGE_TABLE = os.getenv('MESSAGE_TABLE')
 RATING_TABLE = os.getenv('RATING_TABLE')
+#==============================================================================
 
+s3client = boto3.client('s3')
+s3client.download_file(S3_BUCKET_NAME, S3_QUESTIONS_KEY, '/tmp/' + S3_FILENAME)
+bot = QuestionEmbeddings(QUESTION_PATH, NO_ANSWER)
 dinamodb_handler = DynamodbHandler(MESSAGE_TABLE, RATING_TABLE)
 
 
@@ -58,12 +60,25 @@ def handle_response(sender, message, time):
             send_greeting = False
     if send_greeting:
         send_message(sender, GREETING)
-    # if message is a pure number - register as greeting
+    # if message is a pure number - register as rating
     try:
         message = float(message.strip())
-        dinamodb_handler.put_rating(sender, time, message, last_interaction, last_bot_response)
     except ValueError:
-        response = bot.get_response(message)
+        message = str(message)
+
+    if isinstance(message, float):
+        dinamodb_handler.put_rating(sender, time, message, last_interaction, last_bot_response)
+    else:
+        response, found_answer = bot.get_response(message)
+        if not found_answer:
+            print("Ada não sabe ", message)
+            client = boto3.client('lambda')
+            event = {"auth": AUTH_ALERT_LAMBDA, "user_message": message}
+            response = client.invoke(
+                    FunctionName='turing-chatbot-alert',
+                    InvocationType='Event',
+                    Payload=json.dumps(event))
+
         dinamodb_handler.put_message(sender, time, message, response)
         send_message(sender, response)
         send_message(sender, EVALUATE)
