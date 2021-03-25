@@ -50,9 +50,11 @@ class QuestionEmbeddings():
         return mais_similar, maior_score_similaridade
     
     def get_response(self, frase):
+        found_answer = True
         question, similaridade = self.get_most_similar_phrase(frase)
         anwser = self.perguntas_frequentes[self.perguntas_frequentes['PERGUNTAS']  ==  question]['RESPOSTAS'].values[0]
         print(f"mensagem: {frase} \nPergunta mais similar na base de dados: \n{question}\nsimilaridade = {similaridade*100}%")
         if similaridade < self.similarity_threshold:
             anwser = self.no_answer
-        return anwser
+            found_answer = False
+        return anwser, found_answer
