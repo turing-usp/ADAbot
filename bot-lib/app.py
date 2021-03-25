@@ -19,8 +19,8 @@ S3_QUESTIONS_KEY = os.getenv('S3_QUESTIONS_KEY')
 
 # Chatbot settings
 QUESTION_PATH = "/tmp/" + S3_FILENAME
-GREETING = "Olá, eu sou a Ada, um bot em desenvolvimento pelo Grupo Turing! O Grupo Turing agradece o contato!\n"
-NO_ANSWER = "Logo um membro entrará em contato para responder sua questão"
+GREETING = "Olá, eu sou a Ada, o chatbot em desenvolvimento do Grupo Turing! Agradecemos o contato. Posso responder algumas dúvidas frequentes, se você enviar uma única pergunta por mensagem a chance de eu conseguir te responder é maior ;)"
+NO_ANSWER = "Valeu por entrar em contato! Essa pergunta eu não sei responder…. Em breve um membro te responderá, mas enquanto isso pode ir mandando outras perguntas."
 EVALUATE = "O quanto essa resposta te ajudou de 0 (nada) a 5 (respondeu minha questão)?"
 
 #alert lambda
