@@ -23,12 +23,13 @@ GREETING = "Olá, eu sou a Ada, o chatbot em desenvolvimento do Grupo Turing! Ag
 NO_ANSWER = "Valeu por entrar em contato! Essa pergunta eu não sei responder…. Em breve um membro te responderá, mas enquanto isso pode ir mandando outras perguntas."
 EVALUATE = "O quanto essa resposta te ajudou de 0 (nada) a 5 (respondeu minha questão)?"
 
-#alert lambda
-AUTH_ALERT_LAMBDA = os.getenv('AUTH_ALERT_LAMBDA')
-
 # Database configuration
 MESSAGE_TABLE = os.getenv('MESSAGE_TABLE')
 RATING_TABLE = os.getenv('RATING_TABLE')
+
+# alerts telegram
+CHAT_ID = os.getenv('CHAT_ID')
+TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
 #==============================================================================
 
 s3client = boto3.client('s3')
@@ -71,13 +72,10 @@ def handle_response(sender, message, time):
     else:
         response, found_answer = bot.get_response(message)
         if not found_answer:
-            print("Ada não sabe ", message)
-            client = boto3.client('lambda')
-            event = {"auth": AUTH_ALERT_LAMBDA, "user_message": message}
-            response = client.invoke(
-                    FunctionName='turing-chatbot-alert',
-                    InvocationType='Event',
-                    Payload=json.dumps(event))
+            endpoint = "https://api.telegram.org/bot{0}/sendMessage?chat_id={1}&text={2}"
+            ada_alert = "Ada em apuros! Ajude-a respondendo a essa mensagem no Facebook: {}".format(message)
+            r = requests.get(endpoint.format(TELEGRAM_TOKEN, CHAT_ID, ada_alert))
+            print("telegram ",r)
 
         dinamodb_handler.put_message(sender, time, message, response)
         send_message(sender, response)
