@@ -37,9 +37,8 @@ docker build -t turing-bot-v1 .
 }
 ```
 ----
-Made with :heart: by: <br>
-- [Julia Pocciotti | @juliapocciotti](https://github.com/juliapocciotti)
-- [Luísa Heise | @luisaheise](https://github.com/luisaheise)
-- [Vitoria Rodrigues | @vitoriars](https://github.com/vitoriars)
-- [Noel Eliezer | @anorak](https://github.com/anorak)
+Made with :heart: by (Alphabetical order): <br>
 - [Lucas Leme | @lucas-leme](https://github.com/lucas-leme)
+- [Luísa Heise | @luisaheise](https://github.com/luisaheise)
+- [Noel Eliezer | @anor4k](https://github.com/anor4k)
+- [Vitoria Rodrigues | @vitoriars](https://github.com/vitoriars)
