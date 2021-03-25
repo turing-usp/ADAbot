@@ -9,23 +9,21 @@ from aux.dynamobd_handler import DynamodbHandler
 #==============================================================================
 #Facebook controler
 FB_API_URL = 'https://graph.facebook.com/v2.6/me/messages'
-VERIFY_TOKEN = os.getenv('VERIFY_TOKEN')
 PAGE_ACCESS_TOKEN = os.getenv('PAGE_ACCESS_TOKEN')
 
 # csv file
-S3_FILENAME = 'q_and_a.csv'
 S3_BUCKET_NAME = os.getenv('S3_BUCKET_NAME')
 S3_QUESTIONS_KEY = os.getenv('S3_QUESTIONS_KEY')
 
 # Chatbot settings
-QUESTION_PATH = "/tmp/" + S3_FILENAME
-GREETING = "Olá, eu sou a Ada, o chatbot em desenvolvimento do Grupo Turing! Agradecemos o contato. Posso responder algumas dúvidas frequentes, se você enviar uma única pergunta por mensagem a chance de eu conseguir te responder é maior ;)"
-NO_ANSWER = "Valeu por entrar em contato! Essa pergunta eu não sei responder…. Em breve um membro te responderá, mas enquanto isso pode ir mandando outras perguntas."
-EVALUATE = "O quanto essa resposta te ajudou de 0 (nada) a 5 (respondeu minha questão)?"
+QUESTION_PATH = "/tmp/" + S3_QUESTIONS_KEY
+GREETING = os.getenv('MESSAGE_GREETING')
+NO_ANSWER = os.getenv('MESSAGE_NO_ANSWER')
+EVALUATE = os.getenv('MESSAGE_EVALUATE')
 
 # Database configuration
-MESSAGE_TABLE = os.getenv('MESSAGE_TABLE')
-RATING_TABLE = os.getenv('RATING_TABLE')
+MESSAGE_TABLE = os.getenv('TABLE_MESSAGE')
+RATING_TABLE = os.getenv('TABLE_RATING')
 
 # alerts telegram
 CHAT_ID = os.getenv('CHAT_ID')
@@ -67,7 +65,7 @@ def handle_response(sender, message, time):
             endpoint = "https://api.telegram.org/bot{0}/sendMessage?chat_id={1}&text={2}"
             ada_alert = "Ada em apuros! Ajude-a respondendo a essa mensagem no Facebook: {}".format(message)
             r = requests.get(endpoint.format(TELEGRAM_TOKEN, CHAT_ID, ada_alert))
-            print("telegram ",r.status_code)
+            print("telegram ",r)
 
         dinamodb_handler.put_message(sender, time, message, response)
         send_message(sender, response)
