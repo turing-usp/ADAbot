@@ -50,7 +50,7 @@ class DynamodbHandler:
                 if item['time'] > last_time:
                     last_time = item['time']
                     last_interaction = item['message_txt']
-                    last_bot_response item['bot_given_response']
+                    last_bot_response = item['bot_given_response']
             return last_interaction, last_bot_response, last_time
 
         except ClientError as e:
