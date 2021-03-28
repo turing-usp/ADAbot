@@ -14,11 +14,7 @@ class QuestionEmbeddings():
         self.perguntas_frequentes = self.get_database_embs(perguntas_frequentes_int)
 
     def get_database_embs(self, perguntas_frequentes):
-        embs = []
-        for i, row in perguntas_frequentes.iterrows():
-            emb = self.get_sentence_embs(row['PERGUNTAS'])
-            embs.append(emb)
-        perguntas_frequentes['Sentence Embedding'] = embs
+        perguntas_frequentes['Sentence Embedding'] = perguntas_frequentes['PERGUNTAS'].apply(self.get_sentence_embs)
         return perguntas_frequentes
 
     def get_embs_bertinbau(self, frase):
@@ -30,7 +26,6 @@ class QuestionEmbeddings():
 
     def get_sentence_embs(self, frase):
         frase_embs = self.get_embs_bertinbau(frase.lower()).numpy()
-        palavras = frase.lower().split()
         final = np.mean(frase_embs, axis=0)
         return final
     
@@ -47,14 +42,17 @@ class QuestionEmbeddings():
             if similaridade > maior_score_similaridade:
                 maior_score_similaridade = similaridade
                 mais_similar = row['PERGUNTAS']
-        return mais_similar, maior_score_similaridade
+                is_greeting = row['SAUDACAO']
+                answer = row['RESPOSTAS']
+        return mais_similar, maior_score_similaridade, answer, is_greeting
     
     def get_response(self, frase):
-        found_answer = True
-        question, similaridade = self.get_most_similar_phrase(frase)
-        anwser = self.perguntas_frequentes[self.perguntas_frequentes['PERGUNTAS']  ==  question]['RESPOSTAS'].values[0]
+        is_greeting = False
+        question, similaridade, anwser, is_greeting = self.get_most_similar_phrase(frase)
+        is_greeting = bool(is_greeting)
         print(f"mensagem: {frase} \nPergunta mais similar na base de dados: \n{question}\nsimilaridade = {similaridade*100}%")
         if similaridade < self.similarity_threshold:
             anwser = self.no_answer
             found_answer = False
-        return anwser, found_answer
+            is_greeting = False
+        return anwser, found_answer, is_greeting
