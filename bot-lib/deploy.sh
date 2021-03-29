@@ -10,8 +10,8 @@ aws lambda update-function-code --function-name $API_FUNCTION --zip-file fileb:/
 rm $API_FUNCTION.zip
 
 # update main app
-docker build . -t $REPO_NAME -q
-aws ecr get-login-password --region sa-east-1 | docker login --username AWS --password-stdin $DEPLOY_URL
-docker tag $REPO_NAME:latest $DEPLOY_URL/$REPO_NAME:latest
-docker push $DEPLOY_URL/$REPO_NAME:latest -q
+sudo docker build . -t $REPO_NAME -q
+aws ecr get-login-password --region sa-east-1 | sudo docker login --username AWS --password-stdin $DEPLOY_URL
+sudo docker tag $REPO_NAME:latest $DEPLOY_URL/$REPO_NAME:latest
+sudo docker push $DEPLOY_URL/$REPO_NAME:latest -q
 aws lambda update-function-code --function-name $APP_FUNCTION --image-uri $DEPLOY_URL/$REPO_NAME:latest
