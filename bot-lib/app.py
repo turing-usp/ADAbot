@@ -42,7 +42,7 @@ def handle_response(sender, message, time):
     if last_time is None:
         send_greeting = True
     else:
-        if last_time - time > 300000:
+        if time - last_time > 300000:
             send_greeting = True
         else:
             send_greeting = False
@@ -58,15 +58,19 @@ def handle_response(sender, message, time):
         dinamodb_handler.put_rating(sender, time, message, last_interaction, last_bot_response)
         send_message(sender, THANK_YOU)
     else:
-        response, found_answer = bot.get_response(message)
+        response, found_answer, is_greeting = bot.get_response(message)
+        if is_greeting:
+            send_message(sender, GREETING)
         if not found_answer:
             endpoint = "https://api.telegram.org/bot{0}/sendMessage?chat_id={1}&text={2}&parse_mode={3}"
             ada_alert = "<i>Ada em apuros! Ajude-a respondendo a essa mensagem no Facebook:</i> {}".format(message)
             r = requests.get(endpoint.format(TELEGRAM_TOKEN, CHAT_ID, ada_alert, 'HTML'))
-
+            send_message(sender, response)
+        if found_answer and not(is_greeting): 
+            send_message(sender, response)
+            send_message(sender, EVALUATE)
         dinamodb_handler.put_message(sender, time, message, response)
-        send_message(sender, response)
-        send_message(sender, EVALUATE)
+        
 
 
 def send_message(recipient_id, text):
