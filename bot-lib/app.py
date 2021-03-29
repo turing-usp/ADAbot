@@ -46,8 +46,6 @@ def handle_response(sender, message, time):
             send_greeting = True
         else:
             send_greeting = False
-    if send_greeting:
-        send_message(sender, GREETING)
     # if message is a pure number - register as rating
     try:
         message = float(message.strip())
@@ -59,8 +57,7 @@ def handle_response(sender, message, time):
         send_message(sender, THANK_YOU)
     else:
         response, found_answer, is_greeting = bot.get_response(message)
-        if is_greeting:
-            print(message)
+        if is_greeting or send_greeting:
             send_message(sender, GREETING)
         if not found_answer:
             endpoint = "https://api.telegram.org/bot{0}/sendMessage?chat_id={1}&text={2}&parse_mode={3}"
