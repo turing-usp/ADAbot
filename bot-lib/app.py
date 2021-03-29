@@ -42,7 +42,7 @@ def handle_response(sender, message, time):
     if last_time is None:
         send_greeting = True
     else:
-        if last_time - time > 300000:
+        if time - last_time > 300000:
             send_greeting = True
         else:
             send_greeting = False
