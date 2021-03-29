@@ -60,6 +60,7 @@ def handle_response(sender, message, time):
     else:
         response, found_answer, is_greeting = bot.get_response(message)
         if is_greeting:
+            print(message)
             send_message(sender, GREETING)
         if not found_answer:
             endpoint = "https://api.telegram.org/bot{0}/sendMessage?chat_id={1}&text={2}&parse_mode={3}"

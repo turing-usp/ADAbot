@@ -47,7 +47,7 @@ class QuestionEmbeddings():
         return mais_similar, maior_score_similaridade, answer, is_greeting
     
     def get_response(self, frase):
-        is_greeting = False
+        found_answer = True
         question, similaridade, anwser, is_greeting = self.get_most_similar_phrase(frase)
         is_greeting = bool(is_greeting)
         print(f"mensagem: {frase} \nPergunta mais similar na base de dados: \n{question}\nsimilaridade = {similaridade*100}%")
