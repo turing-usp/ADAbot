@@ -6,6 +6,8 @@ __pycache__/
 # C extensions
 *.so
 **/model
+**/termosdeuso_ada.html
+**/privacidade_ada.html
 
 # Distribution / packaging
 .Python
