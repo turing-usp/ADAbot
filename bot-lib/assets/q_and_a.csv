@@ -1,119 +1,119 @@
-PERGUNTAS,RESPOSTAS,SAUDACAO,
-"Você poderia nos passar as informações de contato deste grupo e, se houver, o site oficial?",Pode nos enviar um e-mail no grupoturing.usp@gmail.com ou no nosso site (grupoturing.com.br),0,
-Como posso entrar em contato com vocês?,"Pode mandar a mensagem por aqui mesmo, mas se quiser algo mais formal, pode nos enviar um e-mail no grupoturing.usp@gmail.com",0,
-Quero falar com o líder de vocês,"Fale com nossa diretora de estratégia, Camila Lobianco, no número (62) 96426900",0,
-Vocês oferecem curso de programação?,"Não oferecemos aulas síncronas de nenhuma linguagem de programação. Nosso grupo é voltado para pesquisa, aplicações de projetos e realizações de eventos. Entretanto, em nosso canal no youtube você pode encontrar aulas de Python, C e outros workshops e palestras de diversos assuntos: https://www.youtube.com/channel/UCIZSLh8_ST5np3k60qWOiAA",0,
-Alunos do ICMSC podem fazer parte do grupo Turing também?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-Alunos de São Carlos podem fazer parte do grupo Turing também?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-Alunos da EACH podem fazer parte do grupo Turing também?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-Alunos do IME podem fazer parte do grupo Turing também?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-"Alunos da pós Graduação, mestrado e doutorado podem fazer parte do grupo?","Alunos da pós Graduação, mestrado e doutorado podem fazer parte do grupo",0,
-"Ao participar do grupo, recebe-se algum salário, bolsa ou compensação financeira?",Não há nenhum tipo de contrapartida financeira para os membros do grupo. O trabalho é 100% voluntário,0,
-"Se possível, gostaria de poder conhecer mais sobre a extensão de vocês","Para conhecer o grupo, veja nosso Instagram @grupoturing.usp, nossos posts no medium (https://medium.com/turing-talks), conheça nosso site (https://grupoturing.com.br) e entre na nossa comunidade no Discord - https://discord.gg/26RGmBS ",0,
-Quando abre o Processo Seletivo?,"O processo seletivo do Grupo Turing abre apenas uma vez por ano, no inicio do ano letivo da USP. Para acompanhar notícias sobre o processo siga nossas redes sociais: https://linktr.ee/GrupoTuring",0,
-Quando abre o PS?,"O processo seletivo do Grupo Turing abre apenas uma vez por ano, no inicio do ano letivo da USP. Para acompanhar notícias sobre o processo siga nossas redes sociais: https://linktr.ee/GrupoTuring",0,
-Seria possível indicar pra mim alguns livros de Inteligência Artificial,"Aluguns dos livros clássicos de ML são: \nHands-On Machine Learning with Scikit-Learn and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems \nDeep Learning (Adaptive Computation and Machine Learning series) \nThe Elements of Statistical Learning: Data Mining, Inference, and Prediction",0,
-Vai ter ps de meio de ano?,"Não, nossos processos seletivos são realizados apenas no começo de cada ano letivo",0,
-Vai ter proceso seletivo de meio de ano?,"Não, nossos processos seletivos são realizados apenas no começo de cada ano letivo",0,
-Poderia me explicar como funciona o Processo seletivo?,"As regras específicas do nosso processo seletivo serão informadas quando iniciarmos a divulgação. Mas, em geral, contamos com um Case Técnico, uma dinâmica em grupo e uma entrevista ao final.",0,
-Poderia me explicar como funciona o PS?,"As regras específicas do nosso processo seletivo serão informadas quando iniciarmos a divulgação. Mas, em geral, contamos com um Case Técnico, uma dinâmica em grupo e uma entrevista ao final.",0,
-Vcs codam em Python?,"Utilizamos, majoritariamente, Python. No entanto, a depender da tarefa, utilizamos outras linguagens também",0,
-Vcs codam em Java?,"Utilizamos, majoritariamente, Python. No entanto, a depender da tarefa, utilizamos outras linguagens também",0,
-Vcs programam em Java?,"Utilizamos, majoritariamente, Python. No entanto, a depender da tarefa, utilizamos outras linguagens também",0,
-Vcs programam em R?,"Utilizamos, majoritariamente, Python. No entanto, a depender da tarefa, utilizamos outras linguagens também",0,
-Vcs codam em R?,"Utilizamos, majoritariamente, Python. No entanto, a depender da tarefa, utilizamos outras linguagens também",0,
-Pra programação vcs usam somente python?,"Utilizamos, majoritariamente, Python. No entanto, a depender da tarefa, utilizamos outras linguagens também",0,
-"Tenho uma vaga de estágio aberta, gostaria de divulgar para o grupo Turing",Você pode utilizar nosso servidor no Discord para divulgar vagas de emprego - https://discord.gg/26RGmBS,0,
-Onde posso divulgar uma vaga de estágio?,Você pode utilizar nosso servidor no Discord para divulgar vagas de emprego - https://discord.gg/26RGmBS,0,
-Eu queria saber se vocês tem algum local especifico para fazer divulgação de vagas de emprego,Você pode utilizar nosso servidor no Discord para divulgar vagas de emprego - https://discord.gg/26RGmBS,0,
-Como faço para participar do grupo?,"É necessário passar pelo nosso Processo Seletivo, que acontece anualmente no começo de cada período letivo da USP. Para participar você precisa ser aluno USP (Tanto da graduação quanto da pós).",0,
-como funciona o processo seletivo?,"As regras específicas do nosso processo seletivo serão informadas quando iniciarmos a divulgação. Mas, em geral, contamos contamos com um Case Técnico, uma dinâmica em grupo e uma entrevista ao final.",0,
-como funciona o PS?,"As regras específicas do nosso processo seletivo serão informadas quando iniciarmos a divulgação. Mas, em geral, contamos contamos com um Case Técnico, uma dinâmica em grupo e uma entrevista ao final.",0,
-Como que vocês funcionam?,"Somos um grupo de extensão acadêmica da Universidade de São Paulo que estuda, dissemina e aplica conhecimentos de Inteligência Artificial. Temos diversas áreas de estudo dentro do grupo, como Data Science, Visão Computacional, entre outras.Temos uma hierarquia de gestão, que serve somente para atribuir responsabilidades de uma área a uma pessoa. Porém, todos os membros podem opinar e serão ouvidos igualmente, tendo o mesmo poder de voto em decisões e sendo tratados igualmente.",0,
-Quando será o próximo processo seletivo?,"As datas do Processo Seletivo ainda não estão definidas, mas eles sempre acontecem no início de cada ano letivo.",0,
-O que o Grupo Turing faz?,"Somos um grupo de extensão acadêmica da Universidade de São Paulo que estuda, dissemina e aplica conhecimentos de Inteligência Artificial.",0,
-O que vocês fazem?,"Somos um grupo de extensão acadêmica da Universidade de São Paulo que estuda, dissemina e aplica conhecimentos de Inteligência Artificial.",0,
-O Processo Seletivo do Grupo Turing está aberto?,Para saber se o PS está aberto consulte nosso Instagram (@grupoturing.usp) ou nossa página aqui mesmo no  facebook,0,
-Sou de São Carlos posso fazer parte do grupo Turing?,Nós somos um grupo que contempla todos os institutos da USP,0,
-Sou da Bio posso fazer parte do grupo Turing?,Nós somos um grupo que contempla todos os institutos da USP,0,
-Sou da Psico posso fazer parte do grupo Turing?,Nós somos um grupo que contempla todos os institutos da USP,0,
-Sou da FEA posso fazer parte do grupo Turing?,Nós somos um grupo que contempla todos os institutos da USP,0,
-Sou da EACH posso fazer parte do grupo Turing?,Nós somos um grupo que contempla todos os institutos da USP,0,
-Vocês são um grupo restrito à Poli?,Nós somos um grupo que contempla todos os institutos da USP,0,
-Não tem ninguém do interior?,"Não. No momento, apenas aceitamos membros do campus da capital ou da USP Leste",0,
-"Me interesso muito por Processamento de Linguagem Natural, NLP ou PLN e gostaria de falar com vocês sobre isso","Temos alguns textos no nosso Medium (https://medium.com/turing-talks) sobre o assunto! Se tiver alguma dúvida em específico, sinta-se à vontade para enviar uma mensagem no nosso servidor no discord ( https://discord.gg/26RGmBS )",0,
-Há algum bolsista entre vocês?,Precisaremos checar com nossos membros atuais. Mas por que você gostaria de saber isso?,0,
-"E o que significa ""fazer parte do Grupo Turing""?","Ser um membro do grupo Turing traz responsabilidades na gestão do grupo, em estudos e na execução de projetos",0,
-"Existem grupos de estudo, de pesquisa, projetos, etc?","Nos consideramos um grupo de pesquisa e de estudos, e aplicamos nosso conhecimento em projetos",0,
+PERGUNTAS,RESPOSTAS,SAUDACAO
+"Você poderia nos passar as informações de contato deste grupo e, se houver, o site oficial?",Pode nos enviar um e-mail no grupoturing.usp@gmail.com ou no nosso site (grupoturing.com.br),0
+Como posso entrar em contato com vocês?,"Pode mandar a mensagem por aqui mesmo, mas se quiser algo mais formal, pode nos enviar um e-mail no grupoturing.usp@gmail.com",0
+Quero falar com o líder de vocês,"Fale com nossa diretora de estratégia, Camila Lobianco, no número (62) 96426900",0
+Vocês oferecem curso de programação?,"Não oferecemos aulas síncronas de nenhuma linguagem de programação. Nosso grupo é voltado para pesquisa, aplicações de projetos e realizações de eventos. Entretanto, em nosso canal no youtube você pode encontrar aulas de Python, C e outros workshops e palestras de diversos assuntos: https://www.youtube.com/channel/UCIZSLh8_ST5np3k60qWOiAA",0
+Alunos do ICMSC podem fazer parte do grupo Turing também?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+Alunos de São Carlos podem fazer parte do grupo Turing também?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+Alunos da EACH podem fazer parte do grupo Turing também?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+Alunos do IME podem fazer parte do grupo Turing também?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+"Alunos da pós Graduação, mestrado e doutorado podem fazer parte do grupo?","Alunos da pós Graduação, mestrado e doutorado podem fazer parte do grupo",0
+"Ao participar do grupo, recebe-se algum salário, bolsa ou compensação financeira?",Não há nenhum tipo de contrapartida financeira para os membros do grupo. O trabalho é 100% voluntário,0
+"Se possível, gostaria de poder conhecer mais sobre a extensão de vocês","Para conhecer o grupo, veja nosso Instagram @grupoturing.usp, nossos posts no medium (https://medium.com/turing-talks), conheça nosso site (https://grupoturing.com.br) e entre na nossa comunidade no Discord - https://discord.gg/26RGmBS ",0
+Quando abre o Processo Seletivo?,"O processo seletivo do Grupo Turing abre apenas uma vez por ano, no inicio do ano letivo da USP. Para acompanhar notícias sobre o processo siga nossas redes sociais: https://linktr.ee/GrupoTuring",0
+Quando abre o PS?,"O processo seletivo do Grupo Turing abre apenas uma vez por ano, no inicio do ano letivo da USP. Para acompanhar notícias sobre o processo siga nossas redes sociais: https://linktr.ee/GrupoTuring",0
+Seria possível indicar pra mim alguns livros de Inteligência Artificial,"Aluguns dos livros clássicos de ML são: \nHands-On Machine Learning with Scikit-Learn and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems \nDeep Learning (Adaptive Computation and Machine Learning series) \nThe Elements of Statistical Learning: Data Mining, Inference, and Prediction",0
+Vai ter ps de meio de ano?,"Não, nossos processos seletivos são realizados apenas no começo de cada ano letivo",0
+Vai ter proceso seletivo de meio de ano?,"Não, nossos processos seletivos são realizados apenas no começo de cada ano letivo",0
+Poderia me explicar como funciona o Processo seletivo?,"As regras específicas do nosso processo seletivo serão informadas quando iniciarmos a divulgação. Mas, em geral, contamos com um Case Técnico, uma dinâmica em grupo e uma entrevista ao final.",0
+Poderia me explicar como funciona o PS?,"As regras específicas do nosso processo seletivo serão informadas quando iniciarmos a divulgação. Mas, em geral, contamos com um Case Técnico, uma dinâmica em grupo e uma entrevista ao final.",0
+Vcs codam em Python?,"Utilizamos, majoritariamente, Python. No entanto, a depender da tarefa, utilizamos outras linguagens também",0
+Vcs codam em Java?,"Utilizamos, majoritariamente, Python. No entanto, a depender da tarefa, utilizamos outras linguagens também",0
+Vcs programam em Java?,"Utilizamos, majoritariamente, Python. No entanto, a depender da tarefa, utilizamos outras linguagens também",0
+Vcs programam em R?,"Utilizamos, majoritariamente, Python. No entanto, a depender da tarefa, utilizamos outras linguagens também",0
+Vcs codam em R?,"Utilizamos, majoritariamente, Python. No entanto, a depender da tarefa, utilizamos outras linguagens também",0
+Pra programação vcs usam somente python?,"Utilizamos, majoritariamente, Python. No entanto, a depender da tarefa, utilizamos outras linguagens também",0
+"Tenho uma vaga de estágio aberta, gostaria de divulgar para o grupo Turing",Você pode utilizar nosso servidor no Discord para divulgar vagas de emprego - https://discord.gg/26RGmBS,0
+Onde posso divulgar uma vaga de estágio?,Você pode utilizar nosso servidor no Discord para divulgar vagas de emprego - https://discord.gg/26RGmBS,0
+Eu queria saber se vocês tem algum local especifico para fazer divulgação de vagas de emprego,Você pode utilizar nosso servidor no Discord para divulgar vagas de emprego - https://discord.gg/26RGmBS,0
+Como faço para participar do grupo?,"É necessário passar pelo nosso Processo Seletivo, que acontece anualmente no começo de cada período letivo da USP. Para participar você precisa ser aluno USP (Tanto da graduação quanto da pós).",0
+como funciona o processo seletivo?,"As regras específicas do nosso processo seletivo serão informadas quando iniciarmos a divulgação. Mas, em geral, contamos contamos com um Case Técnico, uma dinâmica em grupo e uma entrevista ao final.",0
+como funciona o PS?,"As regras específicas do nosso processo seletivo serão informadas quando iniciarmos a divulgação. Mas, em geral, contamos contamos com um Case Técnico, uma dinâmica em grupo e uma entrevista ao final.",0
+Como que vocês funcionam?,"Somos um grupo de extensão acadêmica da Universidade de São Paulo que estuda, dissemina e aplica conhecimentos de Inteligência Artificial. Temos diversas áreas de estudo dentro do grupo, como Data Science, Visão Computacional, entre outras.Temos uma hierarquia de gestão, que serve somente para atribuir responsabilidades de uma área a uma pessoa. Porém, todos os membros podem opinar e serão ouvidos igualmente, tendo o mesmo poder de voto em decisões e sendo tratados igualmente.",0
+Quando será o próximo processo seletivo?,"As datas do Processo Seletivo ainda não estão definidas, mas eles sempre acontecem no início de cada ano letivo.",0
+O que o Grupo Turing faz?,"Somos um grupo de extensão acadêmica da Universidade de São Paulo que estuda, dissemina e aplica conhecimentos de Inteligência Artificial.",0
+O que vocês fazem?,"Somos um grupo de extensão acadêmica da Universidade de São Paulo que estuda, dissemina e aplica conhecimentos de Inteligência Artificial.",0
+O Processo Seletivo do Grupo Turing está aberto?,Para saber se o PS está aberto consulte nosso Instagram (@grupoturing.usp) ou nossa página aqui mesmo no  facebook,0
+Sou de São Carlos posso fazer parte do grupo Turing?,Nós somos um grupo que contempla todos os institutos da USP,0
+Sou da Bio posso fazer parte do grupo Turing?,Nós somos um grupo que contempla todos os institutos da USP,0
+Sou da Psico posso fazer parte do grupo Turing?,Nós somos um grupo que contempla todos os institutos da USP,0
+Sou da FEA posso fazer parte do grupo Turing?,Nós somos um grupo que contempla todos os institutos da USP,0
+Sou da EACH posso fazer parte do grupo Turing?,Nós somos um grupo que contempla todos os institutos da USP,0
+Vocês são um grupo restrito à Poli?,Nós somos um grupo que contempla todos os institutos da USP,0
+Não tem ninguém do interior?,"Não. No momento, apenas aceitamos membros do campus da capital ou da USP Leste",0
+"Me interesso muito por Processamento de Linguagem Natural, NLP ou PLN e gostaria de falar com vocês sobre isso","Temos alguns textos no nosso Medium (https://medium.com/turing-talks) sobre o assunto! Se tiver alguma dúvida em específico, sinta-se à vontade para enviar uma mensagem no nosso servidor no discord ( https://discord.gg/26RGmBS )",0
+Há algum bolsista entre vocês?,Precisaremos checar com nossos membros atuais. Mas por que você gostaria de saber isso?,0
+"E o que significa ""fazer parte do Grupo Turing""?","Ser um membro do grupo Turing traz responsabilidades na gestão do grupo, em estudos e na execução de projetos",0
+"Existem grupos de estudo, de pesquisa, projetos, etc?","Nos consideramos um grupo de pesquisa e de estudos, e aplicamos nosso conhecimento em projetos",0
 Existe algum espaço ou abertura para divulgar as vagas entre os membros e ex-membros do Grupo?,"Você pode utilizar nosso servidor no Discord para divulgar vagas de emprego - https://discord.gg/26RGmBS 
-Se você fizer questão que seja divulgada apenas para nossos membros entre em contato através do email grupoturing.usp@gmail.com",0,
-Gostaria de saber mais sobre o Grupo Turing. Como são os projetos do grupo?,Nossos projetos variam de acordo com nossas áreas e você pode saber mais sobre eles através do nosso Instagram (@grupoturing.usp) e do Turing Talks (https://medium.com/turing-talks).,0,
-Você pode me passar mais informações sobre esta escola?,"Não somos uma escola, somos um grupo de estudo e pesquisa que foca em estudar, aplicar e disseminar Inteligência Artificial",0,
-como funciona os projetos/pesquisa de vocês?,Nossos projetos variam de acordo com nossas áreas e você pode saber mais sobre eles através do nosso Instagram (@grupoturing.usp) e do Turing Talks (https://medium.com/turing-talks).,0,
-Quanta experiência em computação seria esperada de um novo membro,"Nosso processo seletivo é desenvolvido para que até pessoas sem nenhum conhecimento de programação possam realizar o Case Técnico, nossa intenção é que a pessoa adquira um conhecimento básico durante o processo e para que depois, se entrar no grupo, desenvolva mais com as aulas ministradas internamente",0,
-Os eventos contam com certificado de participação?,Infelizmente nossos eventos não possuem certificado,0,
-os encontros são presenciais?,"Durante a pandemia nossos encontros são realizados de maneira remota (online), mas em um cenário normalizado possuímos encontros presenciais e onlines",0,
-Tem horários fixos?,"Durante a pandemia nossos encontros são realizados de maneira remota (online), mas em um cenário normalizado possuímos encontros presenciais e onlines",0,
+Se você fizer questão que seja divulgada apenas para nossos membros entre em contato através do email grupoturing.usp@gmail.com",0
+Gostaria de saber mais sobre o Grupo Turing. Como são os projetos do grupo?,Nossos projetos variam de acordo com nossas áreas e você pode saber mais sobre eles através do nosso Instagram (@grupoturing.usp) e do Turing Talks (https://medium.com/turing-talks).,0
+Você pode me passar mais informações sobre esta escola?,"Não somos uma escola, somos um grupo de estudo e pesquisa que foca em estudar, aplicar e disseminar Inteligência Artificial",0
+como funciona os projetos/pesquisa de vocês?,Nossos projetos variam de acordo com nossas áreas e você pode saber mais sobre eles através do nosso Instagram (@grupoturing.usp) e do Turing Talks (https://medium.com/turing-talks).,0
+Quanta experiência em computação seria esperada de um novo membro,"Nosso processo seletivo é desenvolvido para que até pessoas sem nenhum conhecimento de programação possam realizar o Case Técnico, nossa intenção é que a pessoa adquira um conhecimento básico durante o processo e para que depois, se entrar no grupo, desenvolva mais com as aulas ministradas internamente",0
+Os eventos contam com certificado de participação?,Infelizmente nossos eventos não possuem certificado,0
+os encontros são presenciais?,"Durante a pandemia nossos encontros são realizados de maneira remota (online), mas em um cenário normalizado possuímos encontros presenciais e onlines",0
+Tem horários fixos?,"Durante a pandemia nossos encontros são realizados de maneira remota (online), mas em um cenário normalizado possuímos encontros presenciais e onlines",0
 Onde vocês se encontram?,"Num cenário sem pandemia, nosso grupo de reúne no INOVA USP, um prédio dentro do campus da capital. Mas já que atualmente nossos encontros são remotos, nossas reuniões acontecem principalmente pelo Discord ou Meets. 
-",0,
-queria saber se pessoas de outras universidades podem se inscrever também?,Infelizmente nosso grupo é voltado apenas para alunos de graduação e pós graduação da USP,0,
-Qual conhecimento prévio é necessário?,"Nosso processo seletivo é desenvolvido para que até pessoas sem nenhum conhecimento de programação possam realizar o Case Técnico, nossa intenção é que a pessoa adquira um conhecimento básico durante o processo para que depois, se entrar no grupo, desenvolva mais com as aulas ministradas internamente",0,
-Como é avaliado o processo seletivo?,"Cada etapa do PS é analisada através de reuniões conjuntas com nossos membros, onde cada decisão é tomada com o consenso da maioria",0,
-"Se eu fosse selecionado, o que eu faria / aprenderia?","Ao entrar no grupo você passaria pelo Turing Academy, nossas aulinhas internas voltadas para ensinar mais sobre programação e Machine Learning, que possui duração de 6 meses. Em seguida você poderia optar pelas nossas 5 áreas de pesquisa: Visão Computacional, Data Science, Processamento de Linguagem Natural, Aprendizado por reforço e Finanças Quantitativas. Além disso, também pedimos para que os nossos membros participem de pelo menos uma área de gestão, são elas: Comunidade, RH, Estratégia e Pesquisa & Desenvolvimento",0,
-Poderia dar alguns exemplos de frameworks de IA?,"Alguns frameworks de IA são scikit learn, tensorflow, pytorch, pycaffe e trax, mas existem muito mais",0,
-Poderia dar alguns exemplos de bibliotecas de Inteligência Artificial?,"As bibliotecas variam muito de uma área de I.A para outra. Entretanto, a mais conhecida para tarefas de Machine Learning é a Sklearn. Para conhecer mais sobre outras bibliotecas você pode dar uma olhada nos nossos textos do Medium, os Turing Talks",0,
-Como posso conhecer o grupo?,"Para conhecer o grupo, veja nosso Instagram @grupoturing.usp, nossos posts no medium (https://medium.com/turing-talks), conheça nosso site (http://grupoturing.com.br) e entre na nossa comunidade no Discord - https://discord.gg/26RGmBS ",0,
-"Existe vinculação institucional formal entre a Universidade de São Paulo , USP, e o Grupo Turing?","O Grupo Turing é formado apenas por alunos da USP e conta com o apoio de alguns docentes. Entretando, não existe submissão do Grupo Turing a nenhum órgão da universidade, já que não somos vinculados legalmente nem financeiramente à USP.",0,
-Vocês poderiam me ajudar com uma dúvida que tenho em programação ?,"Podemos ajudar caso a linguagem seja Python, caso seja outra linguagem, podemos averiguar com nossos membros. De qualquer forma, recomendamos que utilize o nosso servidor do Discord para dúvidas ;) - https://discord.gg/26RGmBS ",0,
-Qual é o seu horário comercial?,"Não somos uma empresa, não trabalhamos com a noção de horário comercial",0,
-Quero fazer uma parceria com o grupo Turing,"Nosso email é grupoturing.usp@gmail.com, entre em contato!",0,
-Quanto custa esta escola?,"Não somos uma escola, somos um grupo de estudo e pesquisa que foca em estudar, aplicar e disseminar Inteligência Artificial",0,
-O Sibuya está solteiro?,"Solteríssimo, só vem",0,
-Vocês fazem design de sobrancelha?,"Para esse serviço, você deve contactar nosso membro, Felipe Azank, no zap 19 99662-3900",0,
-O Grupo Turing vende projetos para empresas?,"O Grupo Turing não realiza projetos pagos para empresas no modelo ""empresa júnior"". Temos parcerias com empresas e realizamos apenas projetos que acreditamos que terão retorno técnico ou gerarão interesse para nossos membros ou retorno para a sociedade",0,
-Qual o instagram de vocês?,Nosso instagram é @grupoturing.usp,0,
-Qual o email de vocês?,Nosso email é grupoturing.usp@gmail.com,0,
-Qual o LinkedIn de vocês?,Nosso LinkedIn: https://www.linkedin.com/company/grupo-turing/,0,
-Qual o site de vocês?,Nosso site: grupoturing.com.br,0,
-Qual a página do Medium de vocês?,"Nossa página do Medium, o Turing Talks: https://medium.com/turing-talks",0,
-Como posso acessar os Turing Talks?,Através deste link: https://medium.com/turing-talks,0,
-Qual o GitHub de vocês?,Nosso GitHub: https://github.com/grupoturing,0,
-Vocês possuem um repositório para o Turing Talks?,"Sim, você pode acessar através deste link: https://github.com/GrupoTuring/Turing-Talks",0,
-Como posso acessar os códigos completos do Turing Talks?,Nossos códigos ficam registrados no GitHub e você pode acessá-los clicando aqui: https://github.com/GrupoTuring/Turing-Talks,0,
-O Sibuya pode me comprar um sorvete?,O SIbuya só dá sorvete para membros de comunidade,0,
-Obrigado,Disponha ,) estamos disponíveis para eventuais dúvidas,0
-Tois,Disponha ,) estamos disponíveis para eventuais dúvidas,0
-Vlw,Disponha ,) estamos disponíveis para eventuais dúvidas,0
-Valeu,Disponha ,) estamos disponíveis para eventuais dúvidas,0
-Obrigada,Disponha ,) estamos disponíveis para eventuais dúvidas,0
-"Nossa, salvou demais",Disponha ,) estamos disponíveis para eventuais dúvidas,0
-O Azank tá bravo?,O Azank sempre está pistola,0,
+",0
+queria saber se pessoas de outras universidades podem se inscrever também?,Infelizmente nosso grupo é voltado apenas para alunos de graduação e pós graduação da USP,0
+Qual conhecimento prévio é necessário?,"Nosso processo seletivo é desenvolvido para que até pessoas sem nenhum conhecimento de programação possam realizar o Case Técnico, nossa intenção é que a pessoa adquira um conhecimento básico durante o processo para que depois, se entrar no grupo, desenvolva mais com as aulas ministradas internamente",0
+Como é avaliado o processo seletivo?,"Cada etapa do PS é analisada através de reuniões conjuntas com nossos membros, onde cada decisão é tomada com o consenso da maioria",0
+"Se eu fosse selecionado, o que eu faria / aprenderia?","Ao entrar no grupo você passaria pelo Turing Academy, nossas aulinhas internas voltadas para ensinar mais sobre programação e Machine Learning, que possui duração de 6 meses. Em seguida você poderia optar pelas nossas 5 áreas de pesquisa: Visão Computacional, Data Science, Processamento de Linguagem Natural, Aprendizado por reforço e Finanças Quantitativas. Além disso, também pedimos para que os nossos membros participem de pelo menos uma área de gestão, são elas: Comunidade, RH, Estratégia e Pesquisa & Desenvolvimento",0
+Poderia dar alguns exemplos de frameworks de IA?,"Alguns frameworks de IA são scikit learn, tensorflow, pytorch, pycaffe e trax, mas existem muito mais",0
+Poderia dar alguns exemplos de bibliotecas de Inteligência Artificial?,"As bibliotecas variam muito de uma área de I.A para outra. Entretanto, a mais conhecida para tarefas de Machine Learning é a Sklearn. Para conhecer mais sobre outras bibliotecas você pode dar uma olhada nos nossos textos do Medium, os Turing Talks",0
+Como posso conhecer o grupo?,"Para conhecer o grupo, veja nosso Instagram @grupoturing.usp, nossos posts no medium (https://medium.com/turing-talks), conheça nosso site (http://grupoturing.com.br) e entre na nossa comunidade no Discord - https://discord.gg/26RGmBS ",0
+"Existe vinculação institucional formal entre a Universidade de São Paulo , USP, e o Grupo Turing?","O Grupo Turing é formado apenas por alunos da USP e conta com o apoio de alguns docentes. Entretando, não existe submissão do Grupo Turing a nenhum órgão da universidade, já que não somos vinculados legalmente nem financeiramente à USP.",0
+Vocês poderiam me ajudar com uma dúvida que tenho em programação ?,"Podemos ajudar caso a linguagem seja Python, caso seja outra linguagem, podemos averiguar com nossos membros. De qualquer forma, recomendamos que utilize o nosso servidor do Discord para dúvidas ;) - https://discord.gg/26RGmBS ",0
+Qual é o seu horário comercial?,"Não somos uma empresa, não trabalhamos com a noção de horário comercial",0
+Quero fazer uma parceria com o grupo Turing,"Nosso email é grupoturing.usp@gmail.com, entre em contato!",0
+Quanto custa esta escola?,"Não somos uma escola, somos um grupo de estudo e pesquisa que foca em estudar, aplicar e disseminar Inteligência Artificial",0
+O Sibuya está solteiro?,"Solteríssimo, só vem",0
+Vocês fazem design de sobrancelha?,"Para esse serviço, você deve contactar nosso membro, Felipe Azank, no zap 19 99662-3900",0
+O Grupo Turing vende projetos para empresas?,"O Grupo Turing não realiza projetos pagos para empresas no modelo ""empresa júnior"". Temos parcerias com empresas e realizamos apenas projetos que acreditamos que terão retorno técnico ou gerarão interesse para nossos membros ou retorno para a sociedade",0
+Qual o instagram de vocês?,Nosso instagram é @grupoturing.usp,0
+Qual o email de vocês?,Nosso email é grupoturing.usp@gmail.com,0
+Qual o LinkedIn de vocês?,Nosso LinkedIn: https://www.linkedin.com/company/grupo-turing/,0
+Qual o site de vocês?,Nosso site: grupoturing.com.br,0
+Qual a página do Medium de vocês?,"Nossa página do Medium, o Turing Talks: https://medium.com/turing-talks",0
+Como posso acessar os Turing Talks?,Através deste link: https://medium.com/turing-talks,0
+Qual o GitHub de vocês?,Nosso GitHub: https://github.com/grupoturing,0
+Vocês possuem um repositório para o Turing Talks?,"Sim, você pode acessar através deste link: https://github.com/GrupoTuring/Turing-Talks",0
+Como posso acessar os códigos completos do Turing Talks?,Nossos códigos ficam registrados no GitHub e você pode acessá-los clicando aqui: https://github.com/GrupoTuring/Turing-Talks,0
+O Sibuya pode me comprar um sorvete?,O SIbuya só dá sorvete para membros de comunidade,0
+Obrigado,Disponha ,) estamos disponíveis para eventuais dúvidas
+Tois,Disponha ,) estamos disponíveis para eventuais dúvidas
+Vlw,Disponha ,) estamos disponíveis para eventuais dúvidas
+Valeu,Disponha ,) estamos disponíveis para eventuais dúvidas
+Obrigada,Disponha ,) estamos disponíveis para eventuais dúvidas
+"Nossa, salvou demais",Disponha ,) estamos disponíveis para eventuais dúvidas
+O Azank tá bravo?,O Azank sempre está pistola,0
 Quais são as redes sociais do Grupo Turing?,"Nosso instagram: @grupoturing.usp
 Nosso LinkedIn: https://www.linkedin.com/company/grupo-turing/
 Nosso site: http://grupoturing.com.br
 Nossa página do Medium, o Turing Talks: https://medium.com/turing-talks
 Nosso GitHub: https://github.com/grupoturing
-Nosso YouTube: https://www.youtube.com/channel/UCIZSLh8_ST5np3k60qWOiAA",0,
-Qual é a carga horária semanal de um membro do grupo?,"A média das horas semanais dedicadas ao grupo é de 8h, mas isso depende das tarefas que você pega dentro do grupo, podendo variar para um pouco menos ou para mais. Nossos membros não possuem uma carga horária específica para cumprir, o tempo que cada um dedica para o grupo é de escolha pessoal. Entretanto, é nessário que você possua espaço semanal para comparecer às reuniões (no minímo 3 por semana) e para estudar. ",0,
-Vocês possuem canal no youtube?,Você pode acessar nosso canal do youtube através do link: https://www.youtube.com/channel/UCIZSLh8_ST5np3k60qWOiAA,0,
+Nosso YouTube: https://www.youtube.com/channel/UCIZSLh8_ST5np3k60qWOiAA",0
+Qual é a carga horária semanal de um membro do grupo?,"A média das horas semanais dedicadas ao grupo é de 8h, mas isso depende das tarefas que você pega dentro do grupo, podendo variar para um pouco menos ou para mais. Nossos membros não possuem uma carga horária específica para cumprir, o tempo que cada um dedica para o grupo é de escolha pessoal. Entretanto, é nessário que você possua espaço semanal para comparecer às reuniões (no minímo 3 por semana) e para estudar. ",0
+Vocês possuem canal no youtube?,Você pode acessar nosso canal do youtube através do link: https://www.youtube.com/channel/UCIZSLh8_ST5np3k60qWOiAA,0
 Quais são as áreas de estudo do grupo?,"Nossas áreas de estudo/foco são:
 - Data Science
 - Finanças Quantitativas
 - Processamento de Linguagem Natural
 - Aprendizado por Reforço
-- Visão Computacional",0,
+- Visão Computacional",0
 Quais são as áreas de foco do grupo?,"Nossas áreas de estudo/foco são:
 - Data Science
 - Finanças Quantitativas
 - Processamento de Linguagem Natural
 - Aprendizado por Reforço
-- Visão Computacional",0,
+- Visão Computacional",0
 Quais são as áreas de gestão do grupo?,"Nossas áreas de gestão são:
 - Recursos humanos
 - Comunidade
 - Estratégia
-- Pesquisa e Desenvolvimento",0,
-O que faz cada área de gestão?,"A área de Recursos Humanos é responsável por cuidar do nosso processo seletivo e pelo acompanhamento dos nossos membros. A área de Comunidade cuida da organização dos nossos eventos, assim como as nossas mídias sociais. A área de Estratégia é responsável pelas parcerias do grupo, comunicação de empresas e entidades, além de acompanhar os projetos internos. Por fim, nossa área de Pesquisa e Desenvolvimento é a parte que cuida das pesquisas internas do grupo e é responsável pela capacitação dos nossos membros. ",0,
+- Pesquisa e Desenvolvimento",0
+O que faz cada área de gestão?,"A área de Recursos Humanos é responsável por cuidar do nosso processo seletivo e pelo acompanhamento dos nossos membros. A área de Comunidade cuida da organização dos nossos eventos, assim como as nossas mídias sociais. A área de Estratégia é responsável pelas parcerias do grupo, comunicação de empresas e entidades, além de acompanhar os projetos internos. Por fim, nossa área de Pesquisa e Desenvolvimento é a parte que cuida das pesquisas internas do grupo e é responsável pela capacitação dos nossos membros. ",0
 Como vocês se organizam internamente?,"Internamente somos divididos em áreas de pesquisa e de gestão. As áreas de gestão são as responsáveis por lidar com o funcionamento interno do grupo e são divididas em:
 - Recursos humanos
 - Comunidade
@@ -125,7 +125,7 @@ Já as áreas de pesquisa são as responsáveis por gerar nossos estudos e conhe
 - Finanças Quantitativas
 - Processamento de Linguagem Natural
 - Aprendizado por Reforço
-- Visão Computacional",0,
+- Visão Computacional",0
 Como é a estrutura interna do grupo?,"Internamente somos divididos em áreas de pesquisa e de gestão. As áreas de gestão são as responsáveis por lidar com o funcionamento interno do grupo e são divididas em:
 - Recursos humanos
 - Comunidade
@@ -137,9 +137,9 @@ Já as áreas de pesquisa são as responsáveis por gerar nossos estudos e conhe
 - Finanças Quantitativas
 - Processamento de Linguagem Natural
 - Aprendizado por Reforço
-- Visão Computacional",0,
-Como é o Processo Seletivo,"Em geral, contamos contamos com um Case Técnico, uma dinâmica em grupo e uma entrevista ao final.",0,
-Como é o PS,"Em geral, contamos contamos com um Case Técnico, uma dinâmica em grupo e uma entrevista ao final.",0,
+- Visão Computacional",0
+Como é o Processo Seletivo,"Em geral, contamos contamos com um Case Técnico, uma dinâmica em grupo e uma entrevista ao final.",0
+Como é o PS,"Em geral, contamos contamos com um Case Técnico, uma dinâmica em grupo e uma entrevista ao final.",0
 como o grupo funciona internamente?,"Internamente somos divididos em áreas de pesquisa e de gestão. As áreas de gestão são as responsáveis por lidar com o funcionamento interno do grupo e são divididas em:
 - Recursos humanos
 - Comunidade
@@ -151,193 +151,193 @@ Já as áreas de pesquisa são as responsáveis por gerar nossos estudos e conhe
 - Finanças Quantitativas
 - Processamento de Linguagem Natural
 - Aprendizado por Reforço
-- Visão Computacional",0,
-Me interesso muito por Aprendizado por Reforço ou RL,"Temos alguns textos no nosso Medium (https://medium.com/turing-talks) sobre o assunto! Se tiver alguma dúvida em específico, sinta-se à vontade para enviar uma mensagem no nosso servidor no discord ( https://discord.gg/26RGmBS )",0,
-Me interesso muito por Finaças Quantitativas ou Quant,"Temos alguns textos no nosso Medium (https://medium.com/turing-talks) sobre o assunto! Se tiver alguma dúvida em específico, sinta-se à vontade para enviar uma mensagem no nosso servidor no discord ( https://discord.gg/26RGmBS )",0,
-Me interesso muito por Visão Computacional ou CV,"Temos alguns textos no nosso Medium (https://medium.com/turing-talks) sobre o assunto! Se tiver alguma dúvida em específico, sinta-se à vontade para enviar uma mensagem no nosso servidor no discord ( https://discord.gg/26RGmBS )",0,
-Me interesso muito por Ciência de Dados ou Data Science,"Temos alguns textos no nosso Medium (https://medium.com/turing-talks) sobre o assunto! Se tiver alguma dúvida em específico, sinta-se à vontade para enviar uma mensagem no nosso servidor no discord ( https://discord.gg/26RGmBS )",0,
-Me interesso muito por Machine Learning,"Temos alguns textos no nosso Medium (https://medium.com/turing-talks) sobre o assunto! Se tiver alguma dúvida em específico, sinta-se à vontade para enviar uma mensagem no nosso servidor no discord ( https://discord.gg/26RGmBS )",0,
-Quero as informações de contato do grupo,Pode nos enviar um e-mail no grupoturing.usp@gmail.com ou no nosso site (grupoturing.com.br),0,
-Oi!,,1,
-Olá!,,1,
-E aí,,1,
-Salve,,1,
-oi,,1,
-olá,,1,
-Tois,É noiz!,0,
-É nóis,É noiz!,0,
-É nóiz,É noiz!,0,
-Você tá muito ruim?,"Poxa :( Sou um bot em desenvolvimento, tenha paciência",0,
-O azank está pistola?,O Azank sempre está pistola,0,
-Quem é a Luísa Heise?,"A Luísa Heise é uma calculadora em figura de gente. Ela parece uma garotinha braba e pistola, mas ela é muito mais do que isso. Ela é a abelha rainha. ",0,
-O Leme fede?,"Sim, fede.",0,
-Azank,Pistola,0,
-Membros do doutorado podem participar?,"Sim, alunos da graduação, da pós graduação, mestrado e doutorado podem fazer parte do grupo",0,
-Membros do mestrado podem participar?,"Sim, alunos da graduação, da pós graduação, mestrado e doutorado podem fazer parte do grupo",0,
-Pessoas do doutorado podem participar?,"Sim, alunos da graduação, da pós graduação, mestrado e doutorado podem fazer parte do grupo",0,
-Pessoas do mestrado podem participar?,"Sim, alunos da graduação, da pós graduação, mestrado e doutorado podem fazer parte do grupo",0,
-Pessoas da graduação podem participar?,"Sim, alunos da graduação, da pós graduação, mestrado e doutorado podem fazer parte do grupo",0,
-Alunos da graduação podem participar?,"Sim, alunos da graduação, da pós graduação, mestrado e doutorado podem fazer parte do grupo",0,
-Preciso saber programar para entrar no grupo?,"Nosso processo seletivo é desenvolvido para que até pessoas sem nenhum conhecimento de programação possam realizar o Case Técnico, nossa intenção é que a pessoa adquira um conhecimento básico durante o processo para que depois, se entrar no grupo, desenvolva mais com as aulas ministradas internamente",0,
-Preciso saber Machine Learning para entrar no grupo?,"Nosso processo seletivo é desenvolvido para que até pessoas sem nenhum conhecimento de programação possam realizar o Case Técnico, nossa intenção é que a pessoa adquira um conhecimento básico durante o processo para que depois, se entrar no grupo, desenvolva mais com as aulas ministradas internamente",0,
-O que acontece depois de entrar no grupo?,"Depois de passar pelo Processo Seletivo, os chamados ""Trainees"" entram no grupo e são recepcionados com uma reunião geral, com todos do grupo, tanto veteranos quanto calouros. Nessa reunião começamos nossa primeira integração, onde todos começam a se conhecer. Durante os próximos dias que se seguem designamos mentores para cada um dos novos membros. A partir daí, iniciamos o Turing Academy, o programa de capacitação dos trainees. Com essas aulinhas que acontecem uma vez por semana, eles aprendem tudo sobre o básico de programação e análise de dados e até conceitos avançados de Machine Learning.",0,
-Quais são os primeiros passos depois de entrar no grupo?,"Depois de passar pelo Processo Seletivo, os chamados ""Trainees"" entram no grupo e são recepcionados com uma reunião geral, com todos do grupo, tanto veteranos quanto calouros. Nessa reunião começamos nossa primeira integração, onde todos começam a se conhecer. Durante os próximos dias que se seguem designamos mentores para cada um dos novos membros. A partir daí, iniciamos o Turing Academy, o programa de capacitação dos trainees. Com essas aulinhas que acontecem uma vez por semana, eles aprendem tudo sobre o básico de programação e análise de dados e até conceitos avançados de Machine Learning.",0,
-Como os membros escolhem as áreas de gestão?,"Ao entrar no grupo o trainee pode participar das reuniões semanais das áreas do grupo a fim de escolher qual (ou quais) mais te interessam, com a área escolhida, é só começar a participar sempre das reuniões e ajudar nas tarefas!",0,
-"Depois de entrar no grupo, como escolho as áreas de gestão?","Ao entrar no grupo o trainee pode participar das reuniões semanais das áreas do grupo a fim de escolher qual (ou quais) mais te interessam, com a área escolhida, é só começar a participar sempre das reuniões e ajudar nas tarefas!",0,
-Como os membros escolhem as áreas de foco?,"Ao fim do Turing Academy (nosso programa de capacitação dos membros), os trainees devem submeter um trabalho final onde ele aplica tudo que aprendeu durante as aulas em um projeto relacionado à área de estudo que deseja ir. Por exemplo, se o membro quer ir para Visão Computacional, ele deve fazer o trabalho final dessa área de foco. O membro pode escolher quantas áreas de foco ele desejar, desde que faça todos os projetos. Com o projetinho feito, é só enviar pros líderes de área e começar a colar nas reuniões!",0,
-Como os membros escolhem as áreas de estudo?,"Ao fim do Turing Academy (nosso programa de capacitação dos membros), os trainees devem submeter um trabalho final onde ele aplica tudo que aprendeu durante as aulas em um projeto relacionado à área de estudo que deseja ir. Por exemplo, se o membro quer ir para Visão Computacional, ele deve fazer o trabalho final dessa área de foco. O membro pode escolher quantas áreas de foco ele desejar, desde que faça todos os projetos. Com o projetinho feito, é só enviar pros líderes de área e começar a colar nas reuniões!",0,
-"Depois de entrar no grupo, como escolho as áreas de estudo?","Ao fim do Turing Academy (nosso programa de capacitação dos membros), os trainees devem submeter um trabalho final onde ele aplica tudo que aprendeu durante as aulas em um projeto relacionado à área de estudo que deseja ir. Por exemplo, se o membro quer ir para Visão Computacional, ele deve fazer o trabalho final dessa área de foco. O membro pode escolher quantas áreas de foco ele desejar, desde que faça todos os projetos. Com o projetinho feito, é só enviar pros líderes de área e começar a colar nas reuniões!",0,
-"Depois de entrar no grupo, como escolho as áreas de foco?","Ao fim do Turing Academy (nosso programa de capacitação dos membros), os trainees devem submeter um trabalho final onde ele aplica tudo que aprendeu durante as aulas em um projeto relacionado à área de estudo que deseja ir. Por exemplo, se o membro quer ir para Visão Computacional, ele deve fazer o trabalho final dessa área de foco. O membro pode escolher quantas áreas de foco ele desejar, desde que faça todos os projetos. Com o projetinho feito, é só enviar pros líderes de área e começar a colar nas reuniões!",0,
-O que é o Turing Academy?,"O Turing Academy é o programa de capacitação dos trainees. Com aulinhas que acontecem uma vez por semana, eles aprendem tudo sobre o básico de programação, até Ciência de Dados e conceitos avançados de Machine Learning.",0,
-Como funciona o Turing Academy?,"O Turing Academy é o programa de capacitação dos trainees. Com aulinhas que acontecem uma vez por semana, eles aprendem tudo sobre o básico de programação, até Ciência de Dados e conceitos avançados de Machine Learning.",0,
-Como funcionam as reuniões do grupo?,"No Turing, você precisa participar de pelo menos três reuniões semanais: A reunião da sua área de foco, a reunião da sua área de gestão e a reunião geral, em que todos os membros devem participar. Claro que a quantidade de reuniões semanais depende de quantas áreas você participa no grupo, de forma que se você estiver em mais de uma área (tanto de foco quanto de gestão) o número de reuniões que você tem que comparecer é maior. Ah! Alguns projetos do grupo também possuem suas reuniões separadas.",0,
-Como funcionam as reuniões do Turing?,"No Turing, você precisa participar de pelo menos três reuniões semanais: A reunião da sua área de foco, a reunião da sua área de gestão e a reunião geral, em que todos os membros devem participar. Claro que a quantidade de reuniões semanais depende de quantas áreas você participa no grupo, de forma que se você estiver em mais de uma área (tanto de foco quanto de gestão) o número de reuniões que você tem que comparecer é maior. Ah! Alguns projetos do grupo também possuem suas reuniões separadas.",0,
-Vocês possuem reuniões semanais?,"No Turing, você precisa participar de pelo menos três reuniões semanais: A reunião da sua área de foco, a reunião da sua área de gestão e a reunião geral, em que todos os membros devem participar. Claro que a quantidade de reuniões semanais depende de quantas áreas você participa no grupo, de forma que se você estiver em mais de uma área (tanto de foco quanto de gestão) o número de reuniões que você tem que comparecer é maior. Ah! Alguns projetos do grupo também possuem suas reuniões separadas.",0,
-Como funcionam as reuniões semanais?,"No Turing, você precisa participar de pelo menos três reuniões semanais: A reunião da sua área de foco, a reunião da sua área de gestão e a reunião geral, em que todos os membros devem participar. Claro que a quantidade de reuniões semanais depende de quantas áreas você participa no grupo, de forma que se você estiver em mais de uma área (tanto de foco quanto de gestão) o número de reuniões que você tem que comparecer é maior. Ah! Alguns projetos do grupo também possuem suas reuniões separadas.",0,
-Onde vocês se reunem?,"Num cenário sem pandemia, nosso grupo de reúne no INOVA USP, um prédio dentro do campus da capital. Mas já que atualmente nossos encontros são remotos, nossas reuniões acontecem principalmente pelo Discord ou Meets.",0,
-Quantas horas por semana um membro gasta com o Turing?,"A média das horas semanais dedicadas ao grupo é de 8h, mas isso depende das tarefas que você pega dentro do grupo, podendo variar para um pouco menos ou para mais. Nossos membros não possuem uma carga horária específica para cumprir, o tempo que cada um dedica para o grupo é de escolha pessoal. Entretanto, é nessário que você possua espaço semanal para comparecer às reuniões (no minímo 3 por semana) e para estudar. ",0,
-O que é RL?,"Aprendizado por Reforço, ou como chamamos, RL (que vem do nome em inglês Reinforcement Learning) e a área em que estudamos essa técnica de aprendizado de máquina. O diferencial desse método para os outros (aprendizado supervisionado e não supervisionado) é o de que temos um agente interagindo com o ambiente, constantemente recebendo recompensas ou penalidades por suas ações para assim aprender quais são as melhores ações para aquele problema!",0,
-O que é Aprendizado por Reforço?,"Aprendizado por Reforço, ou como chamamos, RL (que vem do nome em inglês Reinforcement Learning) é a área em que estudamos essa técnica de aprendizado de máquina. O diferencial desse método para os outros (aprendizado supervisionado e não supervisionado) é o de que temos um agente interagindo com o ambiente, constantemente recebendo recompensas ou penalidades por suas ações para assim aprender quais são as melhores ações para aquele problema!",0,
-O que é Reinforcement Learning?,"Aprendizado por Reforço, ou como chamamos, RL (que vem do nome em inglês Reinforcement Learning) é a área em que estudamos essa técnica de aprendizado de máquina. O diferencial desse método para os outros (aprendizado supervisionado e não supervisionado) é o de que temos um agente interagindo com o ambiente, constantemente recebendo recompensas ou penalidades por suas ações para assim aprender quais são as melhores ações para aquele problema!",0,
+- Visão Computacional",0
+Me interesso muito por Aprendizado por Reforço ou RL,"Temos alguns textos no nosso Medium (https://medium.com/turing-talks) sobre o assunto! Se tiver alguma dúvida em específico, sinta-se à vontade para enviar uma mensagem no nosso servidor no discord ( https://discord.gg/26RGmBS )",0
+Me interesso muito por Finaças Quantitativas ou Quant,"Temos alguns textos no nosso Medium (https://medium.com/turing-talks) sobre o assunto! Se tiver alguma dúvida em específico, sinta-se à vontade para enviar uma mensagem no nosso servidor no discord ( https://discord.gg/26RGmBS )",0
+Me interesso muito por Visão Computacional ou CV,"Temos alguns textos no nosso Medium (https://medium.com/turing-talks) sobre o assunto! Se tiver alguma dúvida em específico, sinta-se à vontade para enviar uma mensagem no nosso servidor no discord ( https://discord.gg/26RGmBS )",0
+Me interesso muito por Ciência de Dados ou Data Science,"Temos alguns textos no nosso Medium (https://medium.com/turing-talks) sobre o assunto! Se tiver alguma dúvida em específico, sinta-se à vontade para enviar uma mensagem no nosso servidor no discord ( https://discord.gg/26RGmBS )",0
+Me interesso muito por Machine Learning,"Temos alguns textos no nosso Medium (https://medium.com/turing-talks) sobre o assunto! Se tiver alguma dúvida em específico, sinta-se à vontade para enviar uma mensagem no nosso servidor no discord ( https://discord.gg/26RGmBS )",0
+Quero as informações de contato do grupo,Pode nos enviar um e-mail no grupoturing.usp@gmail.com ou no nosso site (grupoturing.com.br),0
+Oi!,,1
+Olá!,,1
+E aí,,1
+Salve,,1
+oi,,1
+olá,,1
+Tois,É noiz!,0
+É nóis,É noiz!,0
+É nóiz,É noiz!,0
+Você tá muito ruim?,"Poxa :( Sou um bot em desenvolvimento, tenha paciência",0
+O azank está pistola?,O Azank sempre está pistola,0
+Quem é a Luísa Heise?,"A Luísa Heise é uma calculadora em figura de gente. Ela parece uma garotinha braba e pistola, mas ela é muito mais do que isso. Ela é a abelha rainha. ",0
+O Leme fede?,"Sim, fede.",0
+Azank,Pistola,0
+Membros do doutorado podem participar?,"Sim, alunos da graduação, da pós graduação, mestrado e doutorado podem fazer parte do grupo",0
+Membros do mestrado podem participar?,"Sim, alunos da graduação, da pós graduação, mestrado e doutorado podem fazer parte do grupo",0
+Pessoas do doutorado podem participar?,"Sim, alunos da graduação, da pós graduação, mestrado e doutorado podem fazer parte do grupo",0
+Pessoas do mestrado podem participar?,"Sim, alunos da graduação, da pós graduação, mestrado e doutorado podem fazer parte do grupo",0
+Pessoas da graduação podem participar?,"Sim, alunos da graduação, da pós graduação, mestrado e doutorado podem fazer parte do grupo",0
+Alunos da graduação podem participar?,"Sim, alunos da graduação, da pós graduação, mestrado e doutorado podem fazer parte do grupo",0
+Preciso saber programar para entrar no grupo?,"Nosso processo seletivo é desenvolvido para que até pessoas sem nenhum conhecimento de programação possam realizar o Case Técnico, nossa intenção é que a pessoa adquira um conhecimento básico durante o processo para que depois, se entrar no grupo, desenvolva mais com as aulas ministradas internamente",0
+Preciso saber Machine Learning para entrar no grupo?,"Nosso processo seletivo é desenvolvido para que até pessoas sem nenhum conhecimento de programação possam realizar o Case Técnico, nossa intenção é que a pessoa adquira um conhecimento básico durante o processo para que depois, se entrar no grupo, desenvolva mais com as aulas ministradas internamente",0
+O que acontece depois de entrar no grupo?,"Depois de passar pelo Processo Seletivo, os chamados ""Trainees"" entram no grupo e são recepcionados com uma reunião geral, com todos do grupo, tanto veteranos quanto calouros. Nessa reunião começamos nossa primeira integração, onde todos começam a se conhecer. Durante os próximos dias que se seguem designamos mentores para cada um dos novos membros. A partir daí, iniciamos o Turing Academy, o programa de capacitação dos trainees. Com essas aulinhas que acontecem uma vez por semana, eles aprendem tudo sobre o básico de programação e análise de dados e até conceitos avançados de Machine Learning.",0
+Quais são os primeiros passos depois de entrar no grupo?,"Depois de passar pelo Processo Seletivo, os chamados ""Trainees"" entram no grupo e são recepcionados com uma reunião geral, com todos do grupo, tanto veteranos quanto calouros. Nessa reunião começamos nossa primeira integração, onde todos começam a se conhecer. Durante os próximos dias que se seguem designamos mentores para cada um dos novos membros. A partir daí, iniciamos o Turing Academy, o programa de capacitação dos trainees. Com essas aulinhas que acontecem uma vez por semana, eles aprendem tudo sobre o básico de programação e análise de dados e até conceitos avançados de Machine Learning.",0
+Como os membros escolhem as áreas de gestão?,"Ao entrar no grupo o trainee pode participar das reuniões semanais das áreas do grupo a fim de escolher qual (ou quais) mais te interessam, com a área escolhida, é só começar a participar sempre das reuniões e ajudar nas tarefas!",0
+"Depois de entrar no grupo, como escolho as áreas de gestão?","Ao entrar no grupo o trainee pode participar das reuniões semanais das áreas do grupo a fim de escolher qual (ou quais) mais te interessam, com a área escolhida, é só começar a participar sempre das reuniões e ajudar nas tarefas!",0
+Como os membros escolhem as áreas de foco?,"Ao fim do Turing Academy (nosso programa de capacitação dos membros), os trainees devem submeter um trabalho final onde ele aplica tudo que aprendeu durante as aulas em um projeto relacionado à área de estudo que deseja ir. Por exemplo, se o membro quer ir para Visão Computacional, ele deve fazer o trabalho final dessa área de foco. O membro pode escolher quantas áreas de foco ele desejar, desde que faça todos os projetos. Com o projetinho feito, é só enviar pros líderes de área e começar a colar nas reuniões!",0
+Como os membros escolhem as áreas de estudo?,"Ao fim do Turing Academy (nosso programa de capacitação dos membros), os trainees devem submeter um trabalho final onde ele aplica tudo que aprendeu durante as aulas em um projeto relacionado à área de estudo que deseja ir. Por exemplo, se o membro quer ir para Visão Computacional, ele deve fazer o trabalho final dessa área de foco. O membro pode escolher quantas áreas de foco ele desejar, desde que faça todos os projetos. Com o projetinho feito, é só enviar pros líderes de área e começar a colar nas reuniões!",0
+"Depois de entrar no grupo, como escolho as áreas de estudo?","Ao fim do Turing Academy (nosso programa de capacitação dos membros), os trainees devem submeter um trabalho final onde ele aplica tudo que aprendeu durante as aulas em um projeto relacionado à área de estudo que deseja ir. Por exemplo, se o membro quer ir para Visão Computacional, ele deve fazer o trabalho final dessa área de foco. O membro pode escolher quantas áreas de foco ele desejar, desde que faça todos os projetos. Com o projetinho feito, é só enviar pros líderes de área e começar a colar nas reuniões!",0
+"Depois de entrar no grupo, como escolho as áreas de foco?","Ao fim do Turing Academy (nosso programa de capacitação dos membros), os trainees devem submeter um trabalho final onde ele aplica tudo que aprendeu durante as aulas em um projeto relacionado à área de estudo que deseja ir. Por exemplo, se o membro quer ir para Visão Computacional, ele deve fazer o trabalho final dessa área de foco. O membro pode escolher quantas áreas de foco ele desejar, desde que faça todos os projetos. Com o projetinho feito, é só enviar pros líderes de área e começar a colar nas reuniões!",0
+O que é o Turing Academy?,"O Turing Academy é o programa de capacitação dos trainees. Com aulinhas que acontecem uma vez por semana, eles aprendem tudo sobre o básico de programação, até Ciência de Dados e conceitos avançados de Machine Learning.",0
+Como funciona o Turing Academy?,"O Turing Academy é o programa de capacitação dos trainees. Com aulinhas que acontecem uma vez por semana, eles aprendem tudo sobre o básico de programação, até Ciência de Dados e conceitos avançados de Machine Learning.",0
+Como funcionam as reuniões do grupo?,"No Turing, você precisa participar de pelo menos três reuniões semanais: A reunião da sua área de foco, a reunião da sua área de gestão e a reunião geral, em que todos os membros devem participar. Claro que a quantidade de reuniões semanais depende de quantas áreas você participa no grupo, de forma que se você estiver em mais de uma área (tanto de foco quanto de gestão) o número de reuniões que você tem que comparecer é maior. Ah! Alguns projetos do grupo também possuem suas reuniões separadas.",0
+Como funcionam as reuniões do Turing?,"No Turing, você precisa participar de pelo menos três reuniões semanais: A reunião da sua área de foco, a reunião da sua área de gestão e a reunião geral, em que todos os membros devem participar. Claro que a quantidade de reuniões semanais depende de quantas áreas você participa no grupo, de forma que se você estiver em mais de uma área (tanto de foco quanto de gestão) o número de reuniões que você tem que comparecer é maior. Ah! Alguns projetos do grupo também possuem suas reuniões separadas.",0
+Vocês possuem reuniões semanais?,"No Turing, você precisa participar de pelo menos três reuniões semanais: A reunião da sua área de foco, a reunião da sua área de gestão e a reunião geral, em que todos os membros devem participar. Claro que a quantidade de reuniões semanais depende de quantas áreas você participa no grupo, de forma que se você estiver em mais de uma área (tanto de foco quanto de gestão) o número de reuniões que você tem que comparecer é maior. Ah! Alguns projetos do grupo também possuem suas reuniões separadas.",0
+Como funcionam as reuniões semanais?,"No Turing, você precisa participar de pelo menos três reuniões semanais: A reunião da sua área de foco, a reunião da sua área de gestão e a reunião geral, em que todos os membros devem participar. Claro que a quantidade de reuniões semanais depende de quantas áreas você participa no grupo, de forma que se você estiver em mais de uma área (tanto de foco quanto de gestão) o número de reuniões que você tem que comparecer é maior. Ah! Alguns projetos do grupo também possuem suas reuniões separadas.",0
+Onde vocês se reunem?,"Num cenário sem pandemia, nosso grupo de reúne no INOVA USP, um prédio dentro do campus da capital. Mas já que atualmente nossos encontros são remotos, nossas reuniões acontecem principalmente pelo Discord ou Meets.",0
+Quantas horas por semana um membro gasta com o Turing?,"A média das horas semanais dedicadas ao grupo é de 8h, mas isso depende das tarefas que você pega dentro do grupo, podendo variar para um pouco menos ou para mais. Nossos membros não possuem uma carga horária específica para cumprir, o tempo que cada um dedica para o grupo é de escolha pessoal. Entretanto, é nessário que você possua espaço semanal para comparecer às reuniões (no minímo 3 por semana) e para estudar. ",0
+O que é RL?,"Aprendizado por Reforço, ou como chamamos, RL (que vem do nome em inglês Reinforcement Learning) e a área em que estudamos essa técnica de aprendizado de máquina. O diferencial desse método para os outros (aprendizado supervisionado e não supervisionado) é o de que temos um agente interagindo com o ambiente, constantemente recebendo recompensas ou penalidades por suas ações para assim aprender quais são as melhores ações para aquele problema!",0
+O que é Aprendizado por Reforço?,"Aprendizado por Reforço, ou como chamamos, RL (que vem do nome em inglês Reinforcement Learning) é a área em que estudamos essa técnica de aprendizado de máquina. O diferencial desse método para os outros (aprendizado supervisionado e não supervisionado) é o de que temos um agente interagindo com o ambiente, constantemente recebendo recompensas ou penalidades por suas ações para assim aprender quais são as melhores ações para aquele problema!",0
+O que é Reinforcement Learning?,"Aprendizado por Reforço, ou como chamamos, RL (que vem do nome em inglês Reinforcement Learning) é a área em que estudamos essa técnica de aprendizado de máquina. O diferencial desse método para os outros (aprendizado supervisionado e não supervisionado) é o de que temos um agente interagindo com o ambiente, constantemente recebendo recompensas ou penalidades por suas ações para assim aprender quais são as melhores ações para aquele problema!",0
 Como funciona a área de RL?,"Na área nós realizamos encontros semanais em que discutimos o andamento de nossos projetos, lemos artigos e tiramos dúvidas gerais que obtivemos durante nossos estudos e aplicações. 
 
-Atualmente na área temos 3 projetos principais em andamento: nosso repositório de RL em que explicamos e aplicamos diversos algoritmos importantes e históricos da área. Turing Retro no qual aplicamos algoritmos estado da arte para criarmos IAs que aprendem a jogar jogos antigos e o Projeto Físico, em que tentamos criar um modelo de um carro que aprenda a se dirigir de maneira autônoma na engine Unity.",0,
+Atualmente na área temos 3 projetos principais em andamento: nosso repositório de RL em que explicamos e aplicamos diversos algoritmos importantes e históricos da área. Turing Retro no qual aplicamos algoritmos estado da arte para criarmos IAs que aprendem a jogar jogos antigos e o Projeto Físico, em que tentamos criar um modelo de um carro que aprenda a se dirigir de maneira autônoma na engine Unity.",0
 Como funciona a área de Aprendizado por Reforço?,"Na área nós realizamos encontros semanais em que discutimos o andamento de nossos projetos, lemos artigos e tiramos dúvidas gerais que obtivemos durante nossos estudos e aplicações. 
 
-Atualmente na área temos 3 projetos principais em andamento: nosso repositório de RL em que explicamos e aplicamos diversos algoritmos importantes e históricos da área. Turing Retro no qual aplicamos algoritmos estado da arte para criarmos IAs que aprendem a jogar jogos antigos e o Projeto Físico, em que tentamos criar um modelo de um carro que aprenda a se dirigir de maneira autônoma na engine Unity.",0,
+Atualmente na área temos 3 projetos principais em andamento: nosso repositório de RL em que explicamos e aplicamos diversos algoritmos importantes e históricos da área. Turing Retro no qual aplicamos algoritmos estado da arte para criarmos IAs que aprendem a jogar jogos antigos e o Projeto Físico, em que tentamos criar um modelo de um carro que aprenda a se dirigir de maneira autônoma na engine Unity.",0
 Como funciona a área de Reinforcement Learning?,"Na área nós realizamos encontros semanais em que discutimos o andamento de nossos projetos, lemos artigos e tiramos dúvidas gerais que obtivemos durante nossos estudos e aplicações. 
 
-Atualmente na área temos 3 projetos principais em andamento: nosso repositório de RL em que explicamos e aplicamos diversos algoritmos importantes e históricos da área. Turing Retro no qual aplicamos algoritmos estado da arte para criarmos IAs que aprendem a jogar jogos antigos e o Projeto Físico, em que tentamos criar um modelo de um carro que aprenda a se dirigir de maneira autônoma na engine Unity.",0,
+Atualmente na área temos 3 projetos principais em andamento: nosso repositório de RL em que explicamos e aplicamos diversos algoritmos importantes e históricos da área. Turing Retro no qual aplicamos algoritmos estado da arte para criarmos IAs que aprendem a jogar jogos antigos e o Projeto Físico, em que tentamos criar um modelo de um carro que aprenda a se dirigir de maneira autônoma na engine Unity.",0
 O que é NLP?,"Processamento de Linguagem Natural, ou Linguística Computacional (como é chamado por alguns), é uma área interdisciplinar entre linguística e ciência da computação. Essa área se dedica a estudar tudo que diz respeito a como o computador recebe, compreende e reproduz a linguagem humana, seja em forma de texto ou áudio.
 
 NLP (como chamamos a área, sigla que vem do seu nome em inglês), já é aplicado hoje em diversas tarefas do dia a dia, desde falar com a Siri, corrigir a ortografia com um corretor automático, ou, até mesmo, traduzir um texto de forma automática. 
-",0,
+",0
 O que é Processamento de Linguagem Natural?,"Processamento de Linguagem Natural, ou Linguística Computacional (como é chamado por alguns), é uma área interdisciplinar entre linguística e ciência da computação. Essa área se dedica a estudar tudo que diz respeito a como o computador recebe, compreende e reproduz a linguagem humana, seja em forma de texto ou áudio.
 
 NLP (como chamamos a área, sigla que vem do seu nome em inglês), já é aplicado hoje em diversas tarefas do dia a dia, desde falar com a Siri, corrigir a ortografia com um corretor automático, ou, até mesmo, traduzir um texto de forma automática. 
-",0,
+",0
 O que é Natural Language Processing?,"Processamento de Linguagem Natural, ou Linguística Computacional (como é chamado por alguns), é uma área interdisciplinar entre linguística e ciência da computação. Essa área se dedica a estudar tudo que diz respeito a como o computador recebe, compreende e reproduz a linguagem humana, seja em forma de texto ou áudio.
 
 NLP (como chamamos a área, sigla que vem do seu nome em inglês), já é aplicado hoje em diversas tarefas do dia a dia, desde falar com a Siri, corrigir a ortografia com um corretor automático, ou, até mesmo, traduzir um texto de forma automática. 
-",0,
+",0
 O que é Linguística Computacional?,"Processamento de Linguagem Natural, ou Linguística Computacional (como é chamado por alguns), é uma área interdisciplinar entre linguística e ciência da computação. Essa área se dedica a estudar tudo que diz respeito a como o computador recebe, compreende e reproduz a linguagem humana, seja em forma de texto ou áudio.
 
 NLP (como chamamos a área, sigla que vem do seu nome em inglês), já é aplicado hoje em diversas tarefas do dia a dia, desde falar com a Siri, corrigir a ortografia com um corretor automático, ou, até mesmo, traduzir um texto de forma automática. 
-",0,
-Como funciona a área de NLP?,"No grupo, a área possui encontros semanais, que costumam contar com aulinhas ministradas pelos próprios membros a fim de conhecermos mais sobre tópicos importantes dentro de NLP. Além disso, também usamos essas reuniões para atualizar os projetos em andamento dentro da área e discutirmos outras possíveis ideias de atividades.",0,
-Como funciona a área de Processamento de Linguagem Natural?,"No grupo, a área possui encontros semanais, que costumam contar com aulinhas ministradas pelos próprios membros a fim de conhecermos mais sobre tópicos importantes dentro de NLP. Além disso, também usamos essas reuniões para atualizar os projetos em andamento dentro da área e discutirmos outras possíveis ideias de atividades.",0,
-Como funciona a área de Linguística Computacional?,"No grupo, a área possui encontros semanais, que costumam contar com aulinhas ministradas pelos próprios membros a fim de conhecermos mais sobre tópicos importantes dentro de NLP. Além disso, também usamos essas reuniões para atualizar os projetos em andamento dentro da área e discutirmos outras possíveis ideias de atividades.",0,
-Como funciona a área de Natural Language Processing?,"No grupo, a área possui encontros semanais, que costumam contar com aulinhas ministradas pelos próprios membros a fim de conhecermos mais sobre tópicos importantes dentro de NLP. Além disso, também usamos essas reuniões para atualizar os projetos em andamento dentro da área e discutirmos outras possíveis ideias de atividades.",0,
-O que é QUANT?,"Finanças Quantitativas, ou QUANT (como chamamos), é uma área que busca estudar aplicações de programação e inteligência artificial no mercado financeiro. Por meio de parcerias, a área aprimora seus conhecimentos de maneira prática e profissional, aprendendo com profissionais dessa área.",0,
-O que é Finanças Quantitativas?,"Finanças Quantitativas, ou QUANT (como chamamos), é uma área que busca estudar aplicações de programação e inteligência artificial no mercado financeiro. Por meio de parcerias, a área aprimora seus conhecimentos de maneira prática e profissional, aprendendo com profissionais dessa área.",0,
-Tchau,Obrigada por entrar em contato! Estamos disponíveis para eventuais dúvidas ,),0
-Flw,Obrigada por entrar em contato! Estamos disponíveis para eventuais dúvidas ,),0
-Falow,Obrigada por entrar em contato! Estamos disponíveis para eventuais dúvidas ,),0
-"Obrigada, tchau",Obrigada por entrar em contato! Estamos disponíveis para eventuais dúvidas ,),0
-Quanto ganho por participar do grupo?,Não há nenhum tipo de contrapartida financeira para os membros do grupo. O trabalho é 100% voluntário,0,
-O trabalho é remunerado?,Não há nenhum tipo de contrapartida financeira para os membros do grupo. O trabalho é 100% voluntário,0,
-Vocês são uma empresa Júnior?,Não somos um empresa júnior e sim um grupo de estudo e pesquisa,0,
-Vocês são uma EJ?,Não somos um empresa júnior e sim um grupo de estudo e pesquisa,0,
-Quanto é a mensalidade do Grupo?,"Não somos um grupo pago, e sim um grupo de estudos",0,
-Quanto pago pra participar do Grupo?,Não há nenhum tipo de contrapartida financeira para os membros do grupo. O trabalho é 100% voluntário,0,
-Quanto custa participar do Grupo?,"Não somos um grupo pago, e sim um grupo de estudos",0,
-O que é Data Science?,"Data Science ou Ciência de Dados em português é a área interdisciplinar que junta a Computação, a Matemática e Estatística e a Inteligência de Negócio para extrair informações, insights e detectar padrões a partir de dados estruturados ou não. Cabe à Data Science também, desenvolver sistemas de recomendação, detectores de anomalias e muitas outras coisas legais que encontramos no dia a dia.",0,
-O que é DS?,"Data Science ou Ciência de Dados em português é a área interdisciplinar que junta a Computação, a Matemática e Estatística e a Inteligência de Negócio para extrair informações, insights e detectar padrões a partir de dados estruturados ou não. Cabe à Data Science também, desenvolver sistemas de recomendação, detectores de anomalias e muitas outras coisas legais que encontramos no dia a dia.",0,
-O que é Ciência de Dados?,"Data Science ou Ciência de Dados em português é a área interdisciplinar que junta a Computação, a Matemática e Estatística e a Inteligência de Negócio para extrair informações, insights e detectar padrões a partir de dados estruturados ou não. Cabe à Data Science também, desenvolver sistemas de recomendação, detectores de anomalias e muitas outras coisas legais que encontramos no dia a dia.",0,
-O que é CV?,"Em Visão Computacional trabalhamos principalmente com o processamento de imagens. Esta pode parecer uma tarefa trivial para nós humanos, mas envolve etapas muito mais trabalhosas para um computador. Para isso, estudamos as propriedades de uma imagem. Usamos suas diferenças, como cor, correlação entre pixels e posição de objetos, a fim de extrair informações relevantes. Da junção dessas informações com algoritmos de IA, criamos aplicações criativamente irrestritas, como classificadores de exames médicos, reconhecimento facial, carros autônomos, etc.",0,
-O que é Computer Vision?,"Em Visão Computacional trabalhamos principalmente com o processamento de imagens. Esta pode parecer uma tarefa trivial para nós humanos, mas envolve etapas muito mais trabalhosas para um computador. Para isso, estudamos as propriedades de uma imagem. Usamos suas diferenças, como cor, correlação entre pixels e posição de objetos, a fim de extrair informações relevantes. Da junção dessas informações com algoritmos de IA, criamos aplicações criativamente irrestritas, como classificadores de exames médicos, reconhecimento facial, carros autônomos, etc.",0,
-O que é Visão Computacional?,"Em Visão Computacional trabalhamos principalmente com o processamento de imagens. Esta pode parecer uma tarefa trivial para nós humanos, mas envolve etapas muito mais trabalhosas para um computador. Para isso, estudamos as propriedades de uma imagem. Usamos suas diferenças, como cor, correlação entre pixels e posição de objetos, a fim de extrair informações relevantes. Da junção dessas informações com algoritmos de IA, criamos aplicações criativamente irrestritas, como classificadores de exames médicos, reconhecimento facial, carros autônomos, etc.",0,
-Como posso ler os Turing Talks?,Através deste link: https://medium.com/turing-talks,0,
-Precisa ser de exatas para participar do grupo?,"Pessoas das mais variadas áreas podem participar do grupo, humanas, exatas, etc.",0,
-Pode participar do grupo sendo de humanas?,"Pessoas das mais variadas áreas podem participar do grupo, humanas, exatas, etc.",0,
-Pessoas do curso de Letras podem participar do grupo?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-Pessoas do curso de Economia podem participar do grupo?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-Pessoas do curso de Direito podem participar do grupo?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-Pessoas do curso de Geografia podem participar do grupo?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-Pessoas do curso de História podem participar do grupo?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-Pessoas do curso de Odontologia podem participar do grupo?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-Pessoas do curso de Administração podem participar do grupo?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-Pessoas do curso de Engenharia podem participar do grupo?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-Pessoas de quais cursos podem participar do grupo?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-Pessoas do curso de Medicina podem participar do grupo?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-Pessoas do curso de Jornalismo podem participar do grupo?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-Pessoas do curso de Editoração podem participar do grupo?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-Pessoas da FFLCH podem participar do grupo?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-Vocês aceitam alunos da pós?,"Alunos da pós Graduação, mestrado e doutorado podem fazer parte do grupo",0,
-Pessoas da pós podem participar?,"Alunos da pós Graduação, mestrado e doutorado podem fazer parte do grupo",0,
-"sou de Escola de Artes, Ciências e Humanidades (EACH). Posso participar do grupo Turing?",Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-sou de Escola de Comunicações e Artes (ECA). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-sou de Escola de Educação Física e Esporte (EEFE). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-sou de Escola de Enfermagem (EE). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-sou de Escola Politécnica (Poli). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-sou de Faculdade de Arquitetura e Urbanismo (FAU). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-sou de Faculdade de Ciências Farmacêuticas (FCF). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-sou de Faculdade de Direito (FD) (Sanfran). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-"sou de Faculdade de Economia, Administração e Contabilidade (FEA). Posso participar do grupo Turing?",Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-sou de Faculdade de Educação (FE). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-"sou de Faculdade de Filosofia, Letras e Ciências Humanas (FFLCH). Posso participar do grupo Turing?",Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-sou de Faculdade de Medicina (FM). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-sou de Faculdade de Medicina Veterinária e Zootecnia (FMVZ). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-sou de Faculdade de Odontologia (FO). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-sou de Faculdade de Saúde Pública (FSP). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-"sou de Instituto de Astronomia, Geofísica e Ciências Atmosféricas (IAG). Posso participar do grupo Turing?",Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-sou de Instituto de Biociências (IB). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-sou de Instituto de Ciências Biomédicas (ICB). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-sou de Instituto de Energia e Ambiente (IEE). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-sou de Instituto de Estudos Avançados (IEA). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-sou de Instituto de Estudos Brasileiros (IEB). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-sou de Instituto de Física (IF). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-sou de Instituto de Geociências (IGc). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-sou de Instituto de Matemática e Estatística (IME). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-sou de Instituto de Medicina Tropical de São Paulo (IMT). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-sou de Instituto de Psicologia (IP). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-sou de Instituto de Química (IQ). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-sou de Instituto de Relações Internacionais (IRI). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-sou de Instituto Oceanográfico (IO). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-sou de Faculdade de Odontologia de Bauru (FOB). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-sou de Escola de Engenharia de Lorena (EEL). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-sou de Escola Superior de Agricultura Luiz de Queiroz (ESALQ). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-sou de Faculdade de Zootecnia e Engenharia de Alimentos (FZEA). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-sou de Escola de Educação Física e Esporte de Ribeirão Preto (EEFERP). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-sou de Escola de Enfermagem de Ribeirão Preto (EERP). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-sou de Faculdade de Ciências Farmacêuticas de Ribeirão Preto (FCFRP). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-sou de Faculdade de Direito de Ribeirão Preto (FDRP). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-"sou de Faculdade de Economia, Administração e Contabilidade de Ribeirão Preto (FEARP). Posso participar do grupo Turing?",Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-"sou de Faculdade de Filosofia, Ciências e Letras de Ribeirão Preto (FFCLRP). Posso participar do grupo Turing?",Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-sou de Faculdade de Medicina de Ribeirão Preto (FMRP). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-sou de Faculdade de Odontologia de Ribeirão Preto (FORP). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-sou de Escola de Engenharia de São Carlos (EESC). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-sou de Instituto de Arquitetura e Urbanismo (IAU). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-sou de Instituto de Ciências Matemáticas e de Computação (ICMC). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-sou de Instituto de Física de São Carlos (IFSC). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-sou de Instituto de Química de São Carlos (IQSC). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-Sou da pós posso participar do grupo?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0,
-Me da um sorvetinho ou um açai,"Peça para o Sib, ele está com o VR acumulado",0,
-"Sou de fora da USP, posso participar?","Infelizmente, só aceitamos membros da comunidade USP",0,
-Quero sorvetinho,"Peça para o Sib, ele está com o VR acumulado",0,
-Quem é Alan Turing?,"Alan Turing é o ateu, homossexual pai da ciência da computação",0,
-vc é uma pessoa?,"Não, eu sou um bot em desenvolvimento.",0,
-Você é um ser humano?,"Não, eu sou um bot em desenvolvimento.",0,
-vadia,":( Não se irrite comigo, sou apenas um bot em desenvolvimento",0,
-Quais projetos vocês fazem?,"Temos vários projetos desenvolvidos e em desenvolvimento. Eu sou um exemplo de um deles: um chatbot. Além desse, temos o projeto de codificação de rostos, heterônimos do Fernando Pessoa e muitos outros. Você pode ver mais no nosso medium e github.",0,
-Quais eventos vocês estão organizando?,"No momento, estamos planejando várias surpresas! A última delas é o noss workshop de redes neurais. Mas logo mais devem sair mais coisas, acompanhe nossas redes!",0,
-Qual o lucro do btg em coxinhas?,O BTG lucra aproximadamente 32 coxinhas/ segundo,0,
-A área de quant faz robô trader?,"Por enquanto, ainda não.",0,
-"Não sou aluno da USP, eu posso participar do grupo?","O Grupo é aberto apenas à comunidade USP, no momento.",0,
-"Estou com uma vaga de desenvolvedor na minha startup, vcs podem divulgar?",Você pode utilizar nosso servidor no Discord para divulgar vagas de emprego - https://discord.gg/26RGmBS,0,
-"Estou com uma vaga de ciêntista de dados na minha startup, vcs podem divulgar?",Você pode utilizar nosso servidor no Discord para divulgar vagas de emprego - https://discord.gg/26RGmBS,0,
-"Estou com uma vaga de estágio na minha startup, vcs podem divulgar?",Você pode utilizar nosso servidor no Discord para divulgar vagas de emprego - https://discord.gg/26RGmBS,0,
-eu quero anunciar uma vaga de cientista de dados,Você pode utilizar nosso servidor no Discord para divulgar vagas de emprego - https://discord.gg/26RGmBS,0,
-eu quero aprender python. me ajuda pufavo,Temos video-aulas de python no nosso canal do YouTube,0,
-Como faz pra entrar no turing?,"É necessário passar pelo nosso Processo Seletivo, que acontece anualmente no começo de cada período letivo da USP. Para participar você precisa ser aluno USP (Tanto da graduação quanto da pós).",0,
-Eu to titi,Fica titi não,0,
-Oi chatbot,,1,
-Oi Ada,,1,
-Roi Ada,,1,
-Fala Adinha,,1,
-Fala vadia,,1,
-Oiiie,,1,
-Oi bb,,1,
-Qual é o melhor baile do rio de janeiro?,O Baile da gaiola,0,
-Por que o seu nome é Ada?,"Meu nome é Ada em homenagem à Ada Lovelace, reconhecida principalmente por ter escrito o primeiro algoritmo para ser processado por uma máquina, a máquina analítica de Charles Babbage.",0,
-Quem é a sua mãe?,As minhas mães são a Luísa e a Vitória,0,
+",0
+Como funciona a área de NLP?,"No grupo, a área possui encontros semanais, que costumam contar com aulinhas ministradas pelos próprios membros a fim de conhecermos mais sobre tópicos importantes dentro de NLP. Além disso, também usamos essas reuniões para atualizar os projetos em andamento dentro da área e discutirmos outras possíveis ideias de atividades.",0
+Como funciona a área de Processamento de Linguagem Natural?,"No grupo, a área possui encontros semanais, que costumam contar com aulinhas ministradas pelos próprios membros a fim de conhecermos mais sobre tópicos importantes dentro de NLP. Além disso, também usamos essas reuniões para atualizar os projetos em andamento dentro da área e discutirmos outras possíveis ideias de atividades.",0
+Como funciona a área de Linguística Computacional?,"No grupo, a área possui encontros semanais, que costumam contar com aulinhas ministradas pelos próprios membros a fim de conhecermos mais sobre tópicos importantes dentro de NLP. Além disso, também usamos essas reuniões para atualizar os projetos em andamento dentro da área e discutirmos outras possíveis ideias de atividades.",0
+Como funciona a área de Natural Language Processing?,"No grupo, a área possui encontros semanais, que costumam contar com aulinhas ministradas pelos próprios membros a fim de conhecermos mais sobre tópicos importantes dentro de NLP. Além disso, também usamos essas reuniões para atualizar os projetos em andamento dentro da área e discutirmos outras possíveis ideias de atividades.",0
+O que é QUANT?,"Finanças Quantitativas, ou QUANT (como chamamos), é uma área que busca estudar aplicações de programação e inteligência artificial no mercado financeiro. Por meio de parcerias, a área aprimora seus conhecimentos de maneira prática e profissional, aprendendo com profissionais dessa área.",0
+O que é Finanças Quantitativas?,"Finanças Quantitativas, ou QUANT (como chamamos), é uma área que busca estudar aplicações de programação e inteligência artificial no mercado financeiro. Por meio de parcerias, a área aprimora seus conhecimentos de maneira prática e profissional, aprendendo com profissionais dessa área.",0
+Tchau,Obrigada por entrar em contato! Estamos disponíveis para eventuais dúvidas ,)
+Flw,Obrigada por entrar em contato! Estamos disponíveis para eventuais dúvidas ,)
+Falow,Obrigada por entrar em contato! Estamos disponíveis para eventuais dúvidas ,)
+"Obrigada, tchau",Obrigada por entrar em contato! Estamos disponíveis para eventuais dúvidas ,)
+Quanto ganho por participar do grupo?,Não há nenhum tipo de contrapartida financeira para os membros do grupo. O trabalho é 100% voluntário,0
+O trabalho é remunerado?,Não há nenhum tipo de contrapartida financeira para os membros do grupo. O trabalho é 100% voluntário,0
+Vocês são uma empresa Júnior?,Não somos um empresa júnior e sim um grupo de estudo e pesquisa,0
+Vocês são uma EJ?,Não somos um empresa júnior e sim um grupo de estudo e pesquisa,0
+Quanto é a mensalidade do Grupo?,"Não somos um grupo pago, e sim um grupo de estudos",0
+Quanto pago pra participar do Grupo?,Não há nenhum tipo de contrapartida financeira para os membros do grupo. O trabalho é 100% voluntário,0
+Quanto custa participar do Grupo?,"Não somos um grupo pago, e sim um grupo de estudos",0
+O que é Data Science?,"Data Science ou Ciência de Dados em português é a área interdisciplinar que junta a Computação, a Matemática e Estatística e a Inteligência de Negócio para extrair informações, insights e detectar padrões a partir de dados estruturados ou não. Cabe à Data Science também, desenvolver sistemas de recomendação, detectores de anomalias e muitas outras coisas legais que encontramos no dia a dia.",0
+O que é DS?,"Data Science ou Ciência de Dados em português é a área interdisciplinar que junta a Computação, a Matemática e Estatística e a Inteligência de Negócio para extrair informações, insights e detectar padrões a partir de dados estruturados ou não. Cabe à Data Science também, desenvolver sistemas de recomendação, detectores de anomalias e muitas outras coisas legais que encontramos no dia a dia.",0
+O que é Ciência de Dados?,"Data Science ou Ciência de Dados em português é a área interdisciplinar que junta a Computação, a Matemática e Estatística e a Inteligência de Negócio para extrair informações, insights e detectar padrões a partir de dados estruturados ou não. Cabe à Data Science também, desenvolver sistemas de recomendação, detectores de anomalias e muitas outras coisas legais que encontramos no dia a dia.",0
+O que é CV?,"Em Visão Computacional trabalhamos principalmente com o processamento de imagens. Esta pode parecer uma tarefa trivial para nós humanos, mas envolve etapas muito mais trabalhosas para um computador. Para isso, estudamos as propriedades de uma imagem. Usamos suas diferenças, como cor, correlação entre pixels e posição de objetos, a fim de extrair informações relevantes. Da junção dessas informações com algoritmos de IA, criamos aplicações criativamente irrestritas, como classificadores de exames médicos, reconhecimento facial, carros autônomos, etc.",0
+O que é Computer Vision?,"Em Visão Computacional trabalhamos principalmente com o processamento de imagens. Esta pode parecer uma tarefa trivial para nós humanos, mas envolve etapas muito mais trabalhosas para um computador. Para isso, estudamos as propriedades de uma imagem. Usamos suas diferenças, como cor, correlação entre pixels e posição de objetos, a fim de extrair informações relevantes. Da junção dessas informações com algoritmos de IA, criamos aplicações criativamente irrestritas, como classificadores de exames médicos, reconhecimento facial, carros autônomos, etc.",0
+O que é Visão Computacional?,"Em Visão Computacional trabalhamos principalmente com o processamento de imagens. Esta pode parecer uma tarefa trivial para nós humanos, mas envolve etapas muito mais trabalhosas para um computador. Para isso, estudamos as propriedades de uma imagem. Usamos suas diferenças, como cor, correlação entre pixels e posição de objetos, a fim de extrair informações relevantes. Da junção dessas informações com algoritmos de IA, criamos aplicações criativamente irrestritas, como classificadores de exames médicos, reconhecimento facial, carros autônomos, etc.",0
+Como posso ler os Turing Talks?,Através deste link: https://medium.com/turing-talks,0
+Precisa ser de exatas para participar do grupo?,"Pessoas das mais variadas áreas podem participar do grupo, humanas, exatas, etc.",0
+Pode participar do grupo sendo de humanas?,"Pessoas das mais variadas áreas podem participar do grupo, humanas, exatas, etc.",0
+Pessoas do curso de Letras podem participar do grupo?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+Pessoas do curso de Economia podem participar do grupo?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+Pessoas do curso de Direito podem participar do grupo?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+Pessoas do curso de Geografia podem participar do grupo?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+Pessoas do curso de História podem participar do grupo?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+Pessoas do curso de Odontologia podem participar do grupo?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+Pessoas do curso de Administração podem participar do grupo?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+Pessoas do curso de Engenharia podem participar do grupo?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+Pessoas de quais cursos podem participar do grupo?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+Pessoas do curso de Medicina podem participar do grupo?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+Pessoas do curso de Jornalismo podem participar do grupo?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+Pessoas do curso de Editoração podem participar do grupo?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+Pessoas da FFLCH podem participar do grupo?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+Vocês aceitam alunos da pós?,"Alunos da pós Graduação, mestrado e doutorado podem fazer parte do grupo",0
+Pessoas da pós podem participar?,"Alunos da pós Graduação, mestrado e doutorado podem fazer parte do grupo",0
+"sou de Escola de Artes, Ciências e Humanidades (EACH). Posso participar do grupo Turing?",Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+sou de Escola de Comunicações e Artes (ECA). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+sou de Escola de Educação Física e Esporte (EEFE). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+sou de Escola de Enfermagem (EE). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+sou de Escola Politécnica (Poli). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+sou de Faculdade de Arquitetura e Urbanismo (FAU). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+sou de Faculdade de Ciências Farmacêuticas (FCF). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+sou de Faculdade de Direito (FD) (Sanfran). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+"sou de Faculdade de Economia, Administração e Contabilidade (FEA). Posso participar do grupo Turing?",Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+sou de Faculdade de Educação (FE). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+"sou de Faculdade de Filosofia, Letras e Ciências Humanas (FFLCH). Posso participar do grupo Turing?",Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+sou de Faculdade de Medicina (FM). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+sou de Faculdade de Medicina Veterinária e Zootecnia (FMVZ). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+sou de Faculdade de Odontologia (FO). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+sou de Faculdade de Saúde Pública (FSP). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+"sou de Instituto de Astronomia, Geofísica e Ciências Atmosféricas (IAG). Posso participar do grupo Turing?",Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+sou de Instituto de Biociências (IB). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+sou de Instituto de Ciências Biomédicas (ICB). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+sou de Instituto de Energia e Ambiente (IEE). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+sou de Instituto de Estudos Avançados (IEA). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+sou de Instituto de Estudos Brasileiros (IEB). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+sou de Instituto de Física (IF). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+sou de Instituto de Geociências (IGc). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+sou de Instituto de Matemática e Estatística (IME). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+sou de Instituto de Medicina Tropical de São Paulo (IMT). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+sou de Instituto de Psicologia (IP). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+sou de Instituto de Química (IQ). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+sou de Instituto de Relações Internacionais (IRI). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+sou de Instituto Oceanográfico (IO). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+sou de Faculdade de Odontologia de Bauru (FOB). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+sou de Escola de Engenharia de Lorena (EEL). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+sou de Escola Superior de Agricultura Luiz de Queiroz (ESALQ). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+sou de Faculdade de Zootecnia e Engenharia de Alimentos (FZEA). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+sou de Escola de Educação Física e Esporte de Ribeirão Preto (EEFERP). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+sou de Escola de Enfermagem de Ribeirão Preto (EERP). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+sou de Faculdade de Ciências Farmacêuticas de Ribeirão Preto (FCFRP). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+sou de Faculdade de Direito de Ribeirão Preto (FDRP). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+"sou de Faculdade de Economia, Administração e Contabilidade de Ribeirão Preto (FEARP). Posso participar do grupo Turing?",Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+"sou de Faculdade de Filosofia, Ciências e Letras de Ribeirão Preto (FFCLRP). Posso participar do grupo Turing?",Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+sou de Faculdade de Medicina de Ribeirão Preto (FMRP). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+sou de Faculdade de Odontologia de Ribeirão Preto (FORP). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+sou de Escola de Engenharia de São Carlos (EESC). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+sou de Instituto de Arquitetura e Urbanismo (IAU). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+sou de Instituto de Ciências Matemáticas e de Computação (ICMC). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+sou de Instituto de Física de São Carlos (IFSC). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+sou de Instituto de Química de São Carlos (IQSC). Posso participar do grupo Turing?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+Sou da pós posso participar do grupo?,Somos abertos a todos os institutos da USP para alunos da graduação e da pós-graduação,0
+Me da um sorvetinho ou um açai,"Peça para o Sib, ele está com o VR acumulado",0
+"Sou de fora da USP, posso participar?","Infelizmente, só aceitamos membros da comunidade USP",0
+Quero sorvetinho,"Peça para o Sib, ele está com o VR acumulado",0
+Quem é Alan Turing?,"Alan Turing é o ateu, homossexual pai da ciência da computação",0
+vc é uma pessoa?,"Não, eu sou um bot em desenvolvimento.",0
+Você é um ser humano?,"Não, eu sou um bot em desenvolvimento.",0
+vadia,":( Não se irrite comigo, sou apenas um bot em desenvolvimento",0
+Quais projetos vocês fazem?,"Temos vários projetos desenvolvidos e em desenvolvimento. Eu sou um exemplo de um deles: um chatbot. Além desse, temos o projeto de codificação de rostos, heterônimos do Fernando Pessoa e muitos outros. Você pode ver mais no nosso medium e github.",0
+Quais eventos vocês estão organizando?,"No momento, estamos planejando várias surpresas! A última delas é o noss workshop de redes neurais. Mas logo mais devem sair mais coisas, acompanhe nossas redes!",0
+Qual o lucro do btg em coxinhas?,O BTG lucra aproximadamente 32 coxinhas/ segundo,0
+A área de quant faz robô trader?,"Por enquanto, ainda não.",0
+"Não sou aluno da USP, eu posso participar do grupo?","O Grupo é aberto apenas à comunidade USP, no momento.",0
+"Estou com uma vaga de desenvolvedor na minha startup, vcs podem divulgar?",Você pode utilizar nosso servidor no Discord para divulgar vagas de emprego - https://discord.gg/26RGmBS,0
+"Estou com uma vaga de ciêntista de dados na minha startup, vcs podem divulgar?",Você pode utilizar nosso servidor no Discord para divulgar vagas de emprego - https://discord.gg/26RGmBS,0
+"Estou com uma vaga de estágio na minha startup, vcs podem divulgar?",Você pode utilizar nosso servidor no Discord para divulgar vagas de emprego - https://discord.gg/26RGmBS,0
+eu quero anunciar uma vaga de cientista de dados,Você pode utilizar nosso servidor no Discord para divulgar vagas de emprego - https://discord.gg/26RGmBS,0
+eu quero aprender python. me ajuda pufavo,Temos video-aulas de python no nosso canal do YouTube,0
+Como faz pra entrar no turing?,"É necessário passar pelo nosso Processo Seletivo, que acontece anualmente no começo de cada período letivo da USP. Para participar você precisa ser aluno USP (Tanto da graduação quanto da pós).",0
+Eu to titi,Fica titi não,0
+Oi chatbot,,1
+Oi Ada,,1
+Roi Ada,,1
+Fala Adinha,,1
+Fala vadia,,1
+Oiiie,,1
+Oi bb,,1
+Qual é o melhor baile do rio de janeiro?,O Baile da gaiola,0
+Por que o seu nome é Ada?,"Meu nome é Ada em homenagem à Ada Lovelace, reconhecida principalmente por ter escrito o primeiro algoritmo para ser processado por uma máquina, a máquina analítica de Charles Babbage.",0
+Quem é a sua mãe?,As minhas mães são a Luísa e a Vitória,0
