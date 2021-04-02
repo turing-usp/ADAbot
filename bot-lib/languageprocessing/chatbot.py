@@ -10,11 +10,12 @@ class QuestionEmbeddings():
         self.similarity_threshold = similarity_threshold
         self.tokenizer = AutoTokenizer.from_pretrained('./model', do_lower_case=False)
         self.model = AutoModel.from_pretrained('./model')
-        perguntas_frequentes_int = pd.read_csv(question_path)
+        perguntas_frequentes_int = pd.read_csv(question_path, sep = ';')
         self.perguntas_frequentes = self.get_database_embs(perguntas_frequentes_int)
 
     def get_database_embs(self, perguntas_frequentes):
         perguntas_frequentes['Sentence Embedding'] = perguntas_frequentes['PERGUNTAS'].apply(self.get_sentence_embs)
+        perguntas_frequentes['SAUDACAO'] = perguntas_frequentes['SAUDACAO'].astype(int)
         return perguntas_frequentes
 
     def get_embs_bertinbau(self, frase):
