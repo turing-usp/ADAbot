@@ -2,7 +2,7 @@ import requests
 import os
 import boto3
 
-from languageprocessing.chatbot import QuestionEmbeddings
+from languageprocessing import Chatbot, QuestionEmbeddings
 from aux.dynamobd_handler import DynamodbHandler
 
 #############################################
@@ -32,7 +32,11 @@ TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
 
 s3client = boto3.client('s3')
 s3client.download_file(S3_BUCKET_NAME, S3_QUESTIONS_KEY, '/tmp/' + S3_QUESTIONS_KEY)
-bot = QuestionEmbeddings(QUESTION_PATH, NO_ANSWER)
+
+# language processing
+question_embeddings = QuestionEmbeddings(QUESTION_PATH, NO_ANSWER)
+bot = Chatbot(question_embeddings)
+
 dinamodb_handler = DynamodbHandler(MESSAGE_TABLE, RATING_TABLE)
 
 
