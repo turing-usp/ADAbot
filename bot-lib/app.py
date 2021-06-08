@@ -3,7 +3,7 @@ import os
 import boto3
 
 from languageprocessing import Chatbot, QuestionEmbeddings
-from aux.dynamobd_handler import DynamodbHandler
+from helper.dynamobd_handler import DynamodbHandler
 
 #############################################
 # Facebook controler
