@@ -14,7 +14,7 @@ class Chatbot():
         mais_similar = ""
         maior_score_similaridade = -999
 
-        sentence_emb = self.question_embeddings.get_sentence_embs(frase)
+        sentence_emb = self.question_embeddings.get_sentence_embs(frase, is_database = False)
         perguntas_frequentes_emb = self.question_embeddings.get_perguntas_frequentes()
         for i, row in perguntas_frequentes_emb.iterrows():
             similaridade = self.semelhanca_cossenos(sentence_emb,row['Sentence Embedding'])

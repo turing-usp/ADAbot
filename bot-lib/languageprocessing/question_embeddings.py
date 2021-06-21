@@ -1,3 +1,4 @@
+from entities import acha_entidades, entidades_e_sinonimos
 from transformers import AutoTokenizer  
 from transformers import AutoModel 
 import torch
@@ -16,7 +17,7 @@ class QuestionEmbeddings():
 
     def get_database_embs(self, perguntas_frequentes):
         perguntas_frequentes['Sentence Embedding'] = perguntas_frequentes['PERGUNTAS'].apply(self.get_sentence_embs)
-        perguntas_frequentes['SAUDACAO'] = perguntas_frequentes['SAUDACAO'].astype(int)
+        perguntas_frequentes['SAUDACAO'] = perguntas_frequentes['SAUDACAO'].fillna(0).astype(int)
         return perguntas_frequentes
 
     def get_embs_bertinbau(self, frase):
@@ -26,7 +27,11 @@ class QuestionEmbeddings():
             encoded = outs[0][0, 1:-1] 
         return encoded
 
-    def get_sentence_embs(self, frase):
+    def get_sentence_embs(self, frase, is_database = True):
+        if not(is_database):
+            entities_filter = acha_entidades(frase, dicionario = entidades_e_sinonimos)
+        else:
+            entities_filter = frase 
         frase_embs = self.get_embs_bertinbau(frase.lower()).numpy()
         final = np.mean(frase_embs, axis=0)
         return final
