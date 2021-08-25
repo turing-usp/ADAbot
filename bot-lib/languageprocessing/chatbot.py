@@ -27,11 +27,11 @@ class Chatbot():
     
     def get_response(self, frase):
         found_answer = True
-        question, similaridade, anwser, is_greeting = self.get_most_similar_phrase(frase)
+        question, similaridade, answer, is_greeting = self.get_most_similar_phrase(frase)
         is_greeting = bool(is_greeting)
         print(f"mensagem: {frase} \nPergunta mais similar na base de dados: \n{question}\nsimilaridade = {similaridade*100}%")
         if similaridade < self.similarity_threshold:
-            anwser = self.no_answer
+            answer = self.question_embeddings.no_answer
             found_answer = False
             is_greeting = False
-        return anwser, found_answer, is_greeting
+        return answer, found_answer, is_greeting
