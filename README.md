@@ -37,9 +37,9 @@ docker build -t turing-bot-v1 .
 }
 ```
 
-### Manual de uso:
-
+### Manual de uso
 Para ver o manual de uso da Ada, [clique aqui.](https://docs.google.com/document/d/1xrpH5JHnDPUoNv3HRr91CyQkJ5LMp4k9nMTiTTeGMmA/edit?usp=sharing)
+
 ----
 Made with :heart: by (Alphabetical order): <br>
 - [Lucas Leme | @lucas-leme](https://github.com/lucas-leme)
